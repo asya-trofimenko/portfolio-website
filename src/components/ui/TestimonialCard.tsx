@@ -1,4 +1,4 @@
-import { useState, useRef, useLayoutEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Button from './Button';
 import Text from './Text';
@@ -23,7 +23,7 @@ export default function TestimonialCard({
   expanded,
   onToggle,
 }: Readonly<TestimonialCardProps>) {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const [expandedHeight, setExpandedHeight] = useState(0);
   const textRef = useRef<HTMLDivElement>(null);
 
@@ -31,11 +31,16 @@ export default function TestimonialCard({
   const collapsedHeight = 128;
   const isOverflowing = expandedHeight > collapsedHeight;
 
-  useLayoutEffect(() => {
-    if (textRef.current) {
-      setExpandedHeight(textRef.current.scrollHeight);
-    }
-  }, [text, i18n.language]);
+  useEffect(() => {
+    const el = textRef.current;
+    if (!el) return;
+    const observer = new ResizeObserver((entries) => {
+      const entry = entries[0];
+      if (entry) setExpandedHeight(entry.contentRect.height);
+    });
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <div className="flex w-full shrink-0 flex-col gap-6 rounded-2.5xl border border-gray-200 bg-base-white p-4 lg:w-222 lg:p-6">
