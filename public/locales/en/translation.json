@@ -1,0 +1,514 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "linkedin": "LinkedIn",
+    "cv": "CV"
+  },
+  "pages": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "notFound": "Page not found"
+  },
+  "hero": {
+    "greeting": {
+      "line1": "Hi, I'm Anastasiia Trofimenko, ",
+      "line2": "a UI/UX & Marketing Designer crafting thoughtful web and mobile experiences."
+    },
+    "availability": {
+      "label": "Availability",
+      "value": "Full-time & Part-time"
+    },
+    "location": {
+      "label": "Location",
+      "value": "Warsaw, Poland"
+    },
+    "workStyle": {
+      "label": "Work Style",
+      "value": "Remote, Hybrid"
+    },
+    "collaboration": {
+      "label": "Collaboration",
+      "value": "Cross-functional"
+    }
+  },
+  "expertise": {
+    "title": "Core Expertise",
+    "uiux": {
+      "title": "UI/UX Design",
+      "description": "User flows, information architecture, wireframing, interaction design, responsive interfaces."
+    },
+    "marketing": {
+      "title": "Marketing Design",
+      "description": "Landing pages, social media visuals, digital campaigns, brand-supporting assets."
+    },
+    "interfaceSystems": {
+      "title": "Interface Systems",
+      "description": "Design systems, components, scalable UI structures, consistency across products."
+    },
+    "productThinking": {
+      "title": "Product Thinking",
+      "description": "User-centered approach, problem-solving, collaboration, structured iteration."
+    }
+  },
+  "tools": {
+    "title": "Tools"
+  },
+  "services": {
+    "title": "Services",
+    "tabs": {
+      "uiux": "UI/UX Design",
+      "marketing": "Marketing Design"
+    },
+    "uiux": {
+      "multiPage": {
+        "title": "Multi-page Websites",
+        "description": "I design structured multi-page websites with intuitive navigation and clean UI."
+      },
+      "mobileApp": {
+        "title": "Mobile App Design",
+        "description": "I design mobile app interfaces focusing on usability and visual simplicity."
+      },
+      "saas": {
+        "title": "SaaS Platform Design",
+        "description": "I design complex SaaS platforms with user-friendly features and a user-centered approach."
+      }
+    },
+    "marketing": {
+      "landingPage": {
+        "title": "Landing Page Design",
+        "description": "I create landing pages that help attract leads and increase conversions."
+      },
+      "presentations": {
+        "title": "Presentations",
+        "description": "I create presentations for pitches, product showcases, and visual storytelling."
+      },
+      "socialMedia": {
+        "title": "Social Media Design",
+        "description": "I create visual content: posts, covers, and digital campaigns that stand out."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "viewAll": "View all projects",
+    "tabs": {
+      "all": "All",
+      "uiux": "UI/UX Design",
+      "marketing": "Marketing Design"
+    },
+    "items": {
+      "tiptap": {
+        "title": "TipTap",
+        "description": "QR Payment Platform",
+        "badge": "FinTech"
+      },
+      "socialtrait": {
+        "title": "Socialtrait",
+        "description": "AI audience insights platform",
+        "badge": "Generative AI"
+      },
+      "whalesMarketing": {
+        "title": "Whales Marketing",
+        "description": "Digital marketing agency",
+        "badge": "Marketing & Advertising"
+      },
+      "vulpesTech": {
+        "title": "Vulpes-Tech",
+        "description": "Custom software & web development",
+        "badge": "IT"
+      },
+      "profitWhales": {
+        "title": "Profit Whales",
+        "description": "Growth & Optimization on Amazon",
+        "badge": "Amazon Marketing"
+      },
+      "concepto": {
+        "title": "Concepto",
+        "description": "Brand & Growth Campaigns",
+        "badge": "Marketing & Advertising"
+      },
+      "illuscriber": {
+        "title": "illuscriber",
+        "description": "Listing Enhancement Tool",
+        "badge": "eCommerce Tool"
+      },
+      "flow": {
+        "title": "Flow",
+        "description": "Project management app"
+      }
+    },
+    "heroDescription": "I design digital experiences that feel clear, engaging, and easy to use. I work on UI/UX for web and mobile products, as well as marketing visuals that help brands stand out."
+  },
+  "cta": {
+    "remoteFriendly": "Remote & Europe-friendly",
+    "openForCollab": "Open to collaborations",
+    "title": "Got a project in mind?",
+    "button": "Let's talk"
+  },
+  "testimonials": {
+    "title": "Clients and colleagues say about me",
+    "prev": "Previous",
+    "next": "Next",
+    "readMore": "Read more",
+    "collapse": "Collapse",
+    "readOnLinkedIn": "Read on LinkedIn",
+    "items": [
+      {
+        "name": "Dima Gavrysh",
+        "text": "I worked with Anastasiia on various projects and genuinely enjoyed the collaboration. She's reliable, on time, and very attentive to detail - the kind of person you don't have to double-check.  What I appreciated most was her initiative. If I asked her to sort something out, she didn't just wait for direction, but came back with her own solution. That level of ownership makes a real difference in creative work.  She has good taste, works thoughtfully, and takes responsibility seriously. I'd gladly work with her again."
+      },
+      {
+        "name": "Bohdan Mazur",
+        "text": "Incredible work on the Vulpes Tech website design. Anastasiia took our rough ideas and turned them into a polished, high-end design. Fast communication, great attention to detail, and a fantastic sense of modern web trends. A pleasure to work with!"
+      },
+      {
+        "name": "Svitlana Chyrva",
+        "text": "We were very satisfied with the collaboration. Everything was delivered clearly, on time, and with full attention to detail. The work was not only well-structured and complete but also creative and thoughtful.Excellent communication, strong UX/UI expertise, and a proactive approach made the process smooth and efficient. Thank you — we'd be happy to collaborate again!"
+      },
+      {
+        "name": "Michael Herzberg",
+        "text": "As a web designer in our team, Anastasiia helped us to fully revamp our corporate website. Her works ar visually appealing and user-friendly. Also, Anastasiia played a key role in our social media designs. She created engaging and eye-catching visuals for posts that significantly boosted our online presence and engagement. Anastasiia is always open to feedback and eager to refine her designs to meet project goals."
+      },
+      {
+        "name": "Yana Filchenkova",
+        "text": "I had the pleasure of working with Anastasiia on several projects, including website content development and social media design. From the start, she impressed me with her professionalism, creativity, and commitment to delivering outstanding results.\n\nAnastasiia consistently exceeded my expectations as a designer. Her designs were always visually appealing and perfectly aligned with our goals. She has a remarkable ability to understand tasks and turn ideas into polished designs.\n\nWhat I valued most was her reliability—every project was delivered on time, and collaboration with her was smooth and efficient.\n\nI highly recommend Anastasiia to anyone seeking a talented and professional designer. Working with her was a true pleasure!"
+      },
+      {
+        "name": "Anna Chubatiuk",
+        "text": "I had the privilege of working with Anastasia during our company's pivotal website transformation. Her exceptional design vision and execution skills were instrumental in completely reimagining our digital presence.\n\nAnastasia demonstrated remarkable ability to translate our brand values into a compelling visual narrative. She led the website redesign project with confidence, carefully balancing modern design trends with user experience best practices. Her collaborative approach and clear communication made the entire process smooth, even when managing complex stakeholder feedback.\n\nAnastasia's talent for creative problem-solving and her dedication to delivering outstanding results make her an invaluable asset to any team. I wholeheartedly recommend her for any design leadership role where innovation and impact are key priorities."
+      },
+      {
+        "name": "Hanna Safonova",
+        "text": "I want to sincerely thank Anastasiia for her exceptional work on the multi-page website design for Whales Marketing. From the start, she demonstrated a strong understanding of our goals and quickly aligned her design vision with our brand's needs. Not only did she meet our deadlines, but she also introduced creative UX/UI solutions that greatly enhanced the site's usability and visual impact. Her thoughtful approach to user experience and a clean and modern UI ensured the site was intuitive for visitors and visually engaging.\n\nAnastasiia's ability to seamlessly incorporate feedback while maintaining a high standard of quality was truly impressive. Her attention to detail—from typography and layout to the overall user flow—resulted in a design that perfectly balances form and function. We are delighted with the outcome and excited about the possibilities for our business.\n\nI highly recommend Anastasiia to anyone looking for a professional, creative, and reliable designer."
+      },
+      {
+        "name": "Ilona Fomina",
+        "text": "I highly recommend Anastasiia Trofimenko as a professional UI/UX designer. Throughout our collaboration on the web development project for the American company, I was consistently impressed by her creativity, professionalism, and unwavering dedication.  Anastasia possesses a unique combination of artistic creativity and technical proficiency, crafting intuitive interfaces that surpass expectations. Her excellent communication skills, ability to adapt to dynamic environments, and innovative mindset set her apart.  In summary, Anastasia is a true professional, and I have full confidence in her ability to positively impact any UI/UX design position she undertakes.\n\nAnastasiia's ability to seamlessly incorporate feedback while maintaining a high standard of quality was truly impressive. Her attention to detail—from typography and layout to the overall user flow—resulted in a design that perfectly balances form and function. We are delighted with the outcome and excited about the possibilities for our business.\n\nI highly recommend Anastasiia to anyone looking for a professional, creative, and reliable designer."
+      }
+    ]
+  },
+  "footer": {
+    "getInTouch": "Get in touch",
+    "letsTalk": "Let's talk",
+    "viewCV": "View my CV",
+    "copyright": "Anastasiia Trofimenko. All rights reserved. © 2026",
+    "credits": "Design by me. Development by Serhii Trofimenko."
+  },
+  "projectsPage": {
+    "title": "Projects",
+    "description": "I create digital products that are clear, engaging, and easy to use. I work on UI/UX for web and mobile products, as well as marketing visuals that help brands stand out."
+  },
+  "aboutPage": {
+    "bio": "I create digital products and draw inspiration from movement, travel, and the life around me.",
+    "bioExtended": "Beyond design, I'm inspired by drawing, beautiful storefronts, and city walks. I love traveling, returning to the sea, and going to the mountains in winter to ski. Movement and stretching help me maintain balance, and dogs bring joy to everyday life. And Kharkiv will forever remain a part of my heart.",
+    "career": {
+      "title": "Career",
+      "items": [
+        {
+          "role": "UI/UX & Marketing Designer",
+          "period": "Present",
+          "company": "Project-based work — BeomyTech, Concepto, Whales Ventures, Coinask",
+          "description": "Working on a project basis with various teams and clients, supporting them with design materials. Projects include websites, SaaS platforms, and marketing materials."
+        },
+        {
+          "role": "UI/UX & Marketing Designer",
+          "period": "2024 — Present",
+          "company": "Socialtrait",
+          "description": "Redesigned the landing page and create marketing materials that strengthen brand communication and identity."
+        },
+        {
+          "role": "UI/UX & Marketing Designer",
+          "period": "2024 — 2025",
+          "company": "Whales Marketing",
+          "description": "Created a website from scratch as part of a cross-functional team and designed SMM creatives."
+        },
+        {
+          "role": "UI/UX & Marketing Designer",
+          "period": "2024 — 2025",
+          "company": "Profit Whales",
+          "description": "Created and refined website pages, prepared presentations and supporting materials."
+        },
+        {
+          "role": "UI/UX Designer",
+          "period": "2024",
+          "company": "CreatiQ",
+          "description": "Collaborated with the team on SaaS platforms and mobile interfaces."
+        },
+        {
+          "role": "UI/UX Designer",
+          "period": "2021 — 2024",
+          "company": "Freelance",
+          "description": "Worked with startups and small businesses on websites, e-commerce solutions, and marketing visuals."
+        }
+      ]
+    },
+    "coreValues": {
+      "title": "Core Values",
+      "items": [
+        {
+          "title": "Trust",
+          "description": "The best solutions emerge when I trust the team and my own ideas."
+        },
+        {
+          "title": "Growth",
+          "description": "Every project strengthens my skills and opens up new ideas."
+        },
+        {
+          "title": "Communication",
+          "description": "The best ideas are born through honest dialogue and the ability to listen."
+        },
+        {
+          "title": "Consistency",
+          "description": "Small steps every day bring me closer to my goals."
+        },
+        {
+          "title": "Feedback",
+          "description": "Open and honest feedback helps improve every design."
+        },
+        {
+          "title": "Partnership",
+          "description": "I believe in moving forward together and mutual support."
+        }
+      ]
+    }
+  },
+  "projectDetail": {
+    "labels": {
+      "industry": "Industry",
+      "service": "Service",
+      "moreProjects": "More Projects",
+      "clientReview": "Client Review",
+      "overview": "Overview",
+      "challenge": "Challenge",
+      "solution": "Solution",
+      "result": "Result"
+    },
+    "buttons": {
+      "fullCase": "Full Case",
+      "liveWebsite": "Live Website"
+    },
+    "tiptap": {
+      "tagline": "QR Payment Platform",
+      "industry": "FinTech",
+      "service": "UI/UX & Marketing Design",
+      "overview": {
+        "text": "TipTap is a QR platform for fast and convenient payments. Businesses can create invoices with QR codes, and customers can pay them instantly from their phones. The platform simplifies the payment process, saves time and ensures convenient interaction between companies and customers."
+      },
+      "challenge": {
+        "items": [
+          "Create a modern and intuitive interface for different user roles.",
+          "Adapt the platform for desktop, tablet and mobile devices.",
+          "Ensure a convenient workflow for various financial and business processes.",
+          "Make the payment process fast and intuitive, minimizing the number of steps for the user."
+        ]
+      },
+      "solution": {
+        "visualIdentity": {
+          "title": "Visual identity",
+          "text": "The platform has a clean, modern design with an emphasis on pink for key elements. The main palette includes neutral shades of black, white, and gray, creating a calm visual space where accents attract attention without overloading the interface."
+        },
+        "uiuxDesign": {
+          "title": "UI/UX Design",
+          "text": "The platform was developed from scratch with a complete structure and intuitive navigation. The interface is adapted to different devices, remaining convenient and understandable for all users. Special attention was paid to AppBuilder, which allows each business to customize the platform to suit their customers' needs, creating a personalized interface. This well-thought-out structure speeds up the user's work and makes interaction with the platform as simple, comfortable, and effective as possible."
+        }
+      },
+      "result": {
+        "text": "TipTap is now a fully-fledged, clean, and intuitive platform, ready for use on any device. A quick payment process, simplified settings and functionality management, and a well-thought-out interface structure make the platform convenient, reliable and visually pleasing."
+      }
+    },
+    "socialtrait": {
+      "tagline": "AI audience insights platform",
+      "industry": "Generative AI",
+      "service": "UI/UX & Marketing Design",
+      "overview": {
+        "text": "Socialtrait is a cutting-edge platform that uses generative AI and community simulation to provide fast, cost-effective, and in-depth consumer insights. By building AI-powered virtual communities, the platform captures real-time feedback on products and services, combining qualitative and quantitative research to deliver actionable results. Socialtrait is recognized globally for shaping the future of audience insights through advanced AI technology."
+      },
+      "challenge": {
+        "items": [
+          "Redesign the landing page to better reflect the platform's innovative AI capabilities.",
+          "Create cohesive marketing visuals that strengthen the brand identity.",
+          "Develop clear and structured materials (presentations, one-pagers, guides) to support internal and client communication."
+        ]
+      },
+      "solution": {
+        "uiuxDesign": {
+          "title": "UI/UX Design",
+          "text": "The landing page was designed from scratch in collaboration with the lead designer and marketing manager. The platform features a clear structure, intuitive navigation, and subtle animations that enhance the user experience. All interfaces are fully responsive and adapted for mobile devices. The design provides clarity, accessibility, and a professional look while supporting Socialtrait's innovative AI-driven approach."
+        },
+        "marketingDesign": {
+          "title": "Marketing Design",
+          "text": "Created a variety of marketing visuals to strengthen the brand's identity and communication. This includes blog covers, LinkedIn visuals, email campaigns, presentations. Each asset was designed to be engaging and aligned with Socialtrait's modern, technology-driven image. The materials help the team communicate clearly and consistently with clients and audiences."
+        }
+      },
+      "result": {
+        "text": "The redesigned landing page and marketing assets strengthened Socialtrait's brand presence and enhanced user engagement. The platform now communicates its AI-driven capabilities clearly, while internal and external materials support efficient, visually consistent communication."
+      }
+    },
+    "whalesMarketing": {
+      "tagline": "Digital marketing agency",
+      "industry": "Marketing & Advertising",
+      "service": "UI/UX & Marketing Design",
+      "overview": {
+        "text": "Whales Marketing is a data-driven, tech-focused marketing agency helping brands navigate the digital ocean. They specialize in growing brand awareness, driving performance, and launching campaigns that reach the right audience."
+      },
+      "challenge": {
+        "items": [
+          "Redesign the website to clearly communicate services and expertise.",
+          "Create advertising and social media creatives that are engaging, modern, and aligned with the brand.",
+          "Ensure designs support multiple platforms and a consistent brand message."
+        ]
+      },
+      "solution": {
+        "uiuxDesign": {
+          "title": "UI/UX Design",
+          "text": "The website was designed from concept to final delivery in close collaboration with the team. It features a clear structure, intuitive navigation, and responsive interfaces for seamless experience across devices. The UI is visually clean and modern, reflecting the agency's tech-driven approach, while making complex services easy to understand for clients."
+        },
+        "marketingDesign": {
+          "title": "Marketing Design",
+          "text": "Created impactful advertising and social media visuals to boost brand visibility and engagement. This includes SMM posts, campaign creatives, and marketing collateral. Each asset reinforces the agency's visual identity and communicates its expertise in performance marketing, AI implementation, and digital strategy."
+        }
+      },
+      "result": {
+        "text": "The fully redesigned website clearly presents Whales Marketing's services and expertise, with a clean, intuitive UI that works seamlessly across devices. Engaging marketing and social media creatives strengthened the brand's visual identity, increased online visibility, and improved audience interaction. The cohesive design and campaign assets make content creation and campaign execution more efficient, supporting the agency's performance-driven approach and enhancing client experience."
+      }
+    },
+    "vulpesTech": {
+      "tagline": "Custom software & web development",
+      "industry": "IT",
+      "service": "UI/UX Design",
+      "overview": {
+        "text": "Vulpes-Tech is a forward-thinking IT company founded by Ukrainian professionals, helping businesses strengthen their digital presence through innovative products and smart development solutions. The company focuses on delivering modern, high-quality digital experiences that support strong business positioning and brand recognition."
+      },
+      "challenge": {
+        "items": [
+          "Create a modern landing page that stands out in the competitive IT market.",
+          "Communicate the company's expertise and innovative approach clearly.",
+          "Present key information in a structured and easy-to-scan format.",
+          "Ensure the layout remains clear and user-friendly across devices."
+        ]
+      },
+      "solution": {
+        "visualIdentity": {
+          "title": "Visual Identity",
+          "text": "A dark-themed visual style was created to match the client's vision and emphasize a modern, high-tech feel. Clean typography and accent highlights enhance readability while reinforcing a sleek and professional brand image."
+        },
+        "uiuxDesign": {
+          "title": "UI/UX Design",
+          "text": "A responsive landing page was designed to present key information in a clear and structured flow. The interface combines intuitive navigation with well-organized sections, including About, Services, Skills, Portfolio, Team, Blog, Testimonials, and Contact."
+        }
+      },
+      "result": {
+        "text": "The final landing page delivers a strong and modern digital presence for Vulpes-Tech, combining a sleek dark interface with clear structure and intuitive navigation. The design highlights the company's expertise and creates a professional first impression, helping the brand communicate credibility and innovation to potential clients."
+      }
+    },
+    "profitWhales": {
+      "tagline": "Amazon growth & optimization",
+      "industry": "Amazon Marketing",
+      "service": "UI/UX & Marketing Design",
+      "overview": {
+        "text": "Profit Whales is a performance-driven Amazon marketing agency focused on helping brands scale through PPC, DSP advertising, listing optimization, and growth strategies."
+      },
+      "challenge": {
+        "items": [
+          "Improve and expand the website structure to better communicate services and expertise.",
+          "Maintain consistency across new and existing pages.",
+          "Create supporting materials to streamline internal processes and client communication."
+        ]
+      },
+      "solution": {
+        "uiuxDesign": {
+          "title": "UI/UX Design",
+          "text": "Designed new website pages and redesigned existing ones in collaboration with the project manager, improving structure, clarity, and user flow while ensuring consistency across the site."
+        },
+        "marketingDesign": {
+          "title": "Marketing Design",
+          "text": "Created and refined presentations, checklists and internal guidelines to support company initiatives, improve communication and standardize workflows."
+        }
+      },
+      "result": {
+        "text": "The updated website and supporting materials helped Profit Whales present its services more clearly and professionally. Improved structure, consistency, and visual quality across pages strengthened the brand's credibility and made it easier to communicate value to potential Amazon sellers looking for a trusted growth partner."
+      }
+    },
+    "concepto": {
+      "tagline": "Brand & growth campaigns",
+      "industry": "Marketing & Advertising",
+      "service": "UI/UX & Marketing Design",
+      "overview": {
+        "text": "Concepto is a full-cycle strategic and creative agency helping brands grow through brand strategy, design, and performance marketing. The agency has partnered with Fortune Global 100 companies and launched campaigns across 12 countries, transforming cultural insight into measurable business growth."
+      },
+      "challenge": {
+        "items": [
+          "Maintain visual consistency while adapting designs using existing templates.",
+          "Develop high-quality visual materials for internal and client-facing use.",
+          "Create presentations that communicate strategy and ideas clearly."
+        ]
+      },
+      "solution": {
+        "uiuxDesign": {
+          "title": "UI/UX Design",
+          "text": "Adapted and refined website interface elements based on existing design templates, ensuring visual consistency and a polished result aligned with the agency's brand standards."
+        },
+        "marketingDesign": {
+          "title": "Marketing Design",
+          "text": "Created company presentations and case study decks from scratch, structuring complex information into clear, visually engaging narratives that support communication and client engagement."
+        }
+      },
+      "result": {
+        "text": "Improved interface clarity and consistency strengthened the agency's digital presence, while thoughtfully designed presentations and visual materials enhanced communication, supported client interactions, and reinforced Concepto's professional brand image."
+      }
+    },
+    "illuscriber": {
+      "tagline": "Listing enhancement tool",
+      "industry": "eCommerce Tool",
+      "service": "UI/UX Design",
+      "overview": {
+        "text": "Illuscriber is an eCommerce tool designed to improve clothing marketplace listings through visual item descriptions. The platform transforms key product details, such as condition, measurements and fit into clear infographic-style visuals that buyers can instantly understand. By placing essential information directly within the image gallery, Illuscriber helps sellers communicate item details more effectively and increase buyer confidence."
+      },
+      "challenge": {
+        "items": [
+          "Design a clear and intuitive tool that allows sellers to create visual item descriptions quickly and without confusion.",
+          "Simplify the workflow so users can generate infographics in seconds with minimal effort.",
+          "Ensure the interface supports a comfortable, distraction-free experience for repetitive listing tasks.",
+          "Reduce cognitive load by structuring inputs and guiding users through the process step by step."
+        ]
+      },
+      "solution": {
+        "uiuxDesign": {
+          "title": "UI/UX Design",
+          "text": "Designed the interface with support from the lead designer, aligning visual and usability decisions with the product vision. Selected and integrated supportive illustrations to improve clarity and guide users through key screens such as sign up and sign in. Structured input fields and simplified the workflow to support a smooth, intuitive experience for sellers creating visual item descriptions."
+        }
+      },
+      "result": {
+        "text": "Illuscriber helps sellers present items more clearly, improving buyer trust and engagement. Visual descriptions make key details impossible to miss, contributing to higher conversion rates, fewer buyer questions, and reduced return risks while elevating the professionalism of marketplace listings."
+      }
+    },
+    "flow": {
+      "tagline": "Adaptive Wellness App",
+      "industry": "Health & Wellness",
+      "service": "UI/UX Design",
+      "overview": {
+        "text": "Flow is a wellness app designed for personalized one-on-one sessions in yoga, meditation, pilates, and breathwork. The platform transforms daily practice into a structured and guided experience, adapting to each user's rhythm, energy level, and lifestyle. It focuses on creating a calm, intuitive space where users can reconnect with their body and mind."
+      },
+      "challenge": {
+        "items": [
+          "Design a personalized wellness experience that adapts to different user needs and energy levels.",
+          "Create a calm and distraction-free interface that supports focus and mindfulness.",
+          "Structure multiple practices (yoga, meditation, pilates, breathwork) into one cohesive system.",
+          "Balance simplicity with enough guidance for users at different levels."
+        ]
+      },
+      "solution": {
+        "uiuxDesign": {
+          "title": "UI/UX Design",
+          "text": "Designed a mobile app experience focused on simplicity, clarity, and emotional comfort. The interface guides users through personalized sessions tailored to their daily state, combining structured flows with a flexible, adaptive approach. Special attention was given to intuitive navigation, soft visual hierarchy, and a calm aesthetic that enhances the overall wellness experience."
+        }
+      },
+      "result": {
+        "text": "The final design delivers a cohesive and intuitive wellness experience that supports daily routines and mindful practices. The app creates a sense of flow and balance, helping users stay engaged, reduce friction in their routines, and build consistent habits through a clear and calming interface."
+      }
+    }
+  }
+}

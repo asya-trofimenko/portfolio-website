@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'TT Ramillas Trl Variable Roman';
+  src: url('/fonts/TT_Ramillas_Variable_Roman.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+button {
+  cursor: pointer;
+}
+
+@theme {
+  /* Colors from Figma */
+  --color-base-white: #FFFFFF;
+  --color-base-dark: #1E1E1E;
+  --color-base-blue: #1E293B;
+  --color-gray-50: #F9FAFB;
+  --color-gray-100: #F2F4F7;
+  --color-gray-200: #EAECF0;
+  --color-gray-300: #D0D5DD;
+  --color-gray-400: #98A2B3;
+  --color-gray-500: #667085;
+  --color-gray-600: #475467;
+  --color-cyan-100: #B8F7FF;
+  --color-cyan-300: #5BF4FF;
+  --color-cyan-500: #36D1DC;
+
+  /* Fonts */
+  --font-heading: 'TT Ramillas Trl Variable Roman', serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Font sizes */
+  --size-display-3\.5xl: 3.5rem; /* 56px */
+
+  /* Border radius */
+  --radius-2\.5xl: 20px;
+
+  /* Shadows */
+  --shadow-lg: 0 4px 6px -2px #10182808, 0 12px 16px -4px #10182814;
+  --shadow-xl: 0 24px 48px -12px #1018282E;
+  --shadow-focus-ring-gray: 0 0 0 4px #98A2B324;
+  --shadow-focus-ring-cyan: 0 0 0 4px #36D1DC3D;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-25%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
