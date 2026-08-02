@@ -9,6 +9,7 @@ import {
 } from '../data/projectDetails';
 import { projects, type Project } from '../data/projects';
 import ProjectTestimonialsSection from '../components/sections/ProjectTestimonialsSection';
+import AutoplayVideo from '../components/ui/AutoplayVideo';
 import ProjectCard from '../components/ui/ProjectCard';
 import Heading from '../components/ui/Heading';
 import Text from '../components/ui/Text';
@@ -16,7 +17,7 @@ import Button from '../components/ui/Button';
 
 // ─── Shared ─────────────────────────────────────────────────────────────────
 
-const sharedImgClass = 'size-full object-cover';
+const sharedMediaClass = 'size-full object-cover';
 
 // ─── Content blocks ──────────────────────────────────────────────────────────
 
@@ -39,7 +40,7 @@ function PhotoWrapperBlock({ block }: Readonly<PhotoWrapperBlockProps>) {
               key={rowKey(row)}
               className="aspect-3/2 w-full overflow-hidden rounded-2xl bg-gray-100 lg:aspect-auto lg:h-200"
             >
-              <img src={row.image} alt="" className={sharedImgClass} />
+              <img src={row.image} alt="" className={sharedMediaClass} />
             </div>
           );
         }
@@ -51,7 +52,7 @@ function PhotoWrapperBlock({ block }: Readonly<PhotoWrapperBlockProps>) {
                   key={img}
                   className="aspect-square flex-1 overflow-hidden rounded-2xl bg-gray-100"
                 >
-                  <img src={img} alt="" className={sharedImgClass} />
+                  <img src={img} alt="" className={sharedMediaClass} />
                 </div>
               ))}
             </div>
@@ -80,7 +81,7 @@ function OverviewBlock({ block }: Readonly<OverviewBlockProps>) {
         </Text>
       </div>
       <div className="aspect-3/2 w-full overflow-hidden rounded-2xl bg-gray-100 lg:aspect-auto lg:h-200">
-        <img src={block.image} alt="" className={sharedImgClass} />
+        <img src={block.image} alt="" className={sharedMediaClass} />
       </div>
     </div>
   );
@@ -328,12 +329,14 @@ function HeroSection({ detail, project }: Readonly<HeroSectionProps>) {
           </div>
         </div>
 
-        {/* Hero image */}
-        <div className="h-77 w-full overflow-hidden rounded-2xl bg-gray-100 lg:h-200">
-          <img
-            src={detail.heroImage}
-            alt={t(project.titleKey)}
-            className={sharedImgClass}
+        {/* Hero video */}
+        <div className="aspect-3/2 w-full overflow-hidden rounded-2xl bg-gray-100">
+          <AutoplayVideo
+            src={detail.heroVideo}
+            poster={detail.heroPoster}
+            label={t(project.titleKey)}
+            eager
+            className={sharedMediaClass}
           />
         </div>
       </div>

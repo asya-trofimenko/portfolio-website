@@ -1,31 +1,39 @@
 import { useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-import type { DotLottie } from '@lottiefiles/dotlottie-react';
 import { services } from '../../data/services';
+import AutoplayVideo from '../ui/AutoplayVideo';
 import TabButton from '../ui/TabButton';
 import Heading from '../ui/Heading';
 import Text from '../ui/Text';
 
 type Tab = 'uiux' | 'marketing';
 
-const tabConfig: Record<Tab, { lottie: string }> = {
-  uiux: { lottie: '/lottie/landing-page-services-ui-ux-design.json' },
-  marketing: { lottie: '/lottie/landing-page-services-marketing-design.json' },
+const tabConfig: Record<Tab, { video: string; poster: string }> = {
+  uiux: {
+    video: '/videos/services-ui-ux-design.mp4',
+    poster: '/videos/posters/services-ui-ux-design.jpg',
+  },
+  marketing: {
+    video: '/videos/services-marketing-design.mp4',
+    poster: '/videos/posters/services-marketing-design.jpg',
+  },
 };
 
 export default function ServicesSection() {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<Tab>('uiux');
-  const dotLottieRef = useRef<DotLottie | null>(null);
+  const prefetched = useRef(new Set<string>());
 
-  const handleTabSwitch = (tab: Tab) => {
-    setActiveTab(tab);
-    dotLottieRef.current?.load({
-      src: tabConfig[tab].lottie,
-      autoplay: true,
-      loop: true,
-    });
+  // Reaching for a tab is a strong hint — warm its clip before the click lands.
+  const prefetchTab = (tab: Tab) => {
+    const { video } = tabConfig[tab];
+    if (prefetched.current.has(video)) return;
+    prefetched.current.add(video);
+
+    const link = document.createElement('link');
+    link.rel = 'prefetch';
+    link.href = video;
+    document.head.append(link);
   };
 
   const filtered = services.filter((s) => s.category === activeTab);
@@ -38,13 +46,17 @@ export default function ServicesSection() {
         <div className="flex gap-3.5">
           <TabButton
             active={activeTab === 'uiux'}
-            onClick={() => handleTabSwitch('uiux')}
+            onClick={() => setActiveTab('uiux')}
+            onMouseEnter={() => prefetchTab('uiux')}
+            onFocus={() => prefetchTab('uiux')}
           >
             {t('services.tabs.uiux')}
           </TabButton>
           <TabButton
             active={activeTab === 'marketing'}
-            onClick={() => handleTabSwitch('marketing')}
+            onClick={() => setActiveTab('marketing')}
+            onMouseEnter={() => prefetchTab('marketing')}
+            onFocus={() => prefetchTab('marketing')}
           >
             {t('services.tabs.marketing')}
           </TabButton>
@@ -67,15 +79,12 @@ export default function ServicesSection() {
             ))}
           </div>
 
-          <div className="w-full overflow-hidden rounded-2.5xl lg:w-164 lg:aspect-video">
-            <DotLottieReact
-              src={tabConfig.uiux.lottie}
-              loop
-              autoplay
-              className="size-full"
-              dotLottieRefCallback={(instance) => {
-                dotLottieRef.current = instance;
-              }}
+          <div className="aspect-video w-full overflow-hidden rounded-2.5xl lg:w-164">
+            <AutoplayVideo
+              src={tabConfig[activeTab].video}
+              poster={tabConfig[activeTab].poster}
+              label={t(`services.tabs.${activeTab}`)}
+              className="size-full object-cover"
             />
           </div>
         </div>
