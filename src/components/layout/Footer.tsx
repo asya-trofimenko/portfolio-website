@@ -100,12 +100,12 @@ export default function Footer() {
             >
               {t('nav.projects')}
             </Link>
-            {/* <Link
+            <Link
               to="/about"
               className="font-body text-xl leading-7.5 text-gray-200 hover:text-base-white transition-colors lg:text-2xl lg:leading-8"
             >
               {t('nav.about')}
-            </Link> */}
+            </Link>
           </nav>
 
           {/* Social media */}

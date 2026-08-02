@@ -13,6 +13,9 @@ export default function TestimonialsSection() {
     dragFree: false,
     watchDrag: false,
     containScroll: false,
+    // The track lives inside a padded wrapper so slides line up with the
+    // section heading while still bleeding past the right edge.
+    container: '[data-embla-container]',
   });
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -70,27 +73,26 @@ export default function TestimonialsSection() {
         </div>
       </div>
 
-      <div
-        ref={emblaRef}
-        className="mt-6 overflow-hidden pl-4 md:pl-8 lg:mt-8 lg:pl-20"
-      >
-        <div className="flex gap-6">
-          {testimonials.map((testimonial) => (
-            <TestimonialCard
-              key={testimonial.nameKey}
-              nameKey={testimonial.nameKey}
-              textKey={testimonial.textKey}
-              role={testimonial.role}
-              avatar={testimonial.avatar}
-              linkedinUrl={testimonial.linkedinUrl}
-              expanded={expandedKey === testimonial.nameKey}
-              onToggle={() =>
-                setExpandedKey((prev) =>
-                  prev === testimonial.nameKey ? null : testimonial.nameKey,
-                )
-              }
-            />
-          ))}
+      <div ref={emblaRef} className="mt-6 overflow-hidden lg:mt-8">
+        <div className="mx-auto w-full max-w-360 px-4 md:px-8 lg:px-12">
+          <div data-embla-container className="flex gap-6">
+            {testimonials.map((testimonial) => (
+              <TestimonialCard
+                key={testimonial.nameKey}
+                nameKey={testimonial.nameKey}
+                textKey={testimonial.textKey}
+                role={testimonial.role}
+                avatar={testimonial.avatar}
+                linkedinUrl={testimonial.linkedinUrl}
+                expanded={expandedKey === testimonial.nameKey}
+                onToggle={() =>
+                  setExpandedKey((prev) =>
+                    prev === testimonial.nameKey ? null : testimonial.nameKey,
+                  )
+                }
+              />
+            ))}
+          </div>
         </div>
       </div>
 

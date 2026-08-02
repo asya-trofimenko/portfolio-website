@@ -13,7 +13,9 @@ export default function MarqueeCss({
   const copies = [0, 1, 2, 3] as const;
 
   return (
-    <div className="w-full overflow-hidden">
+    // Clip only horizontally so items that tilt or shift out of the row —
+    // the About polaroids — keep their full outline instead of being cut off.
+    <div className="w-full overflow-x-clip overflow-y-visible">
       <div
         className="animate-marquee flex w-max"
         style={{ animationDuration: `${duration}s` }}

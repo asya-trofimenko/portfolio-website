@@ -40,14 +40,14 @@ export default function MobileMenu({ onClose }: Readonly<MobileMenuProps>) {
           </Link>
           <div className="h-px bg-gray-200" />
 
-          {/* <Link
+          <Link
             to="/about"
             onClick={onClose}
             className="font-body text-xl leading-7.5 text-base-dark"
           >
             {t('nav.about')}
           </Link>
-          <div className="h-px bg-gray-200" /> */}
+          <div className="h-px bg-gray-200" />
 
           <a
             href={links.cv}
