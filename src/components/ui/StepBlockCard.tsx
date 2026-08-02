@@ -15,7 +15,7 @@ export default function StepBlockCard({
 }: Readonly<StepBlockCardProps>) {
   return (
     <div
-      className={`flex flex-col gap-4 overflow-clip rounded-[20px] border border-gray-100 bg-gray-50 p-4 lg:h-60 lg:justify-center lg:p-6 ${className}`}
+      className={`flex flex-col gap-4 overflow-clip rounded-[20px] border border-gray-300 bg-gray-50 p-4 lg:h-60 lg:justify-center lg:p-6 ${className}`}
     >
       <Icon
         name={icon}
