@@ -55,8 +55,8 @@ export default function Footer() {
       {/* Content */}
       <div className="mx-auto w-full max-w-360 px-4 md:px-8 lg:px-12 flex flex-col lg:flex-row lg:items-start lg:justify-between gap-8">
         {/* Left: contact info + CV */}
-        <div className="flex flex-col gap-6 lg:gap-8">
-          <div className="flex flex-col gap-1">
+        <div className="flex flex-col items-center gap-6 lg:items-start lg:gap-8">
+          <div className="flex flex-col items-center gap-1 lg:items-start">
             <Text size="body-xl" className="text-gray-400">
               {t('footer.letsTalk')}
             </Text>
@@ -78,16 +78,16 @@ export default function Footer() {
             hierarchy="secondary-color"
             size="xl"
             iconTrailing="arrow-up-right"
-            className="self-start"
+            className="self-center lg:self-start"
           >
             {t('footer.viewCV')}
           </Button>
         </div>
 
         {/* Right: nav + social */}
-        <div className="flex gap-4 lg:gap-6">
+        <div className="flex w-full justify-between gap-4 lg:w-auto lg:justify-start lg:gap-6">
           {/* Navigation */}
-          <nav className="flex flex-col gap-3 lg:gap-6 w-42.75 lg:w-51">
+          <nav className="flex flex-col gap-3 lg:gap-6 lg:w-51">
             <Link
               to="/"
               className="font-body text-xl leading-7.5 text-gray-200 hover:text-base-white transition-colors lg:text-2xl lg:leading-8"
@@ -109,7 +109,7 @@ export default function Footer() {
           </nav>
 
           {/* Social media */}
-          <div className="flex flex-col gap-3 lg:gap-6 w-42.75 lg:w-51">
+          <div className="flex flex-col gap-3 lg:gap-6 lg:w-51">
             {socials.map(({ platform, label, href }) => (
               <a
                 key={platform}
@@ -131,9 +131,19 @@ export default function Footer() {
       </div>
 
       {/* Footer line */}
-      <div className="w-full bg-cyan-100 text-base-dark font-body text-sm leading-5 p-4 lg:text-lg lg:leading-6 lg:px-12 lg:py-3.5 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-1">
+      <div className="w-full bg-cyan-100 text-base-dark font-body text-sm leading-5 p-4 lg:text-lg lg:leading-6 lg:px-12 lg:py-3.5 flex flex-col items-center text-center lg:flex-row lg:items-center lg:justify-between lg:text-left gap-1">
         <p>{t('footer.copyright')}</p>
-        <p>{t('footer.credits')}</p>
+        <p>
+          {t('footer.credits')}{' '}
+          <a
+            href={links.developer}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-base-blue transition-colors"
+          >
+            {t('footer.developer')}
+          </a>
+        </p>
       </div>
     </footer>
   );

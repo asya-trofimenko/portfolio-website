@@ -11,7 +11,7 @@ export default function AboutHeroSection() {
         <AnnotatedText value={t('aboutPage.bio')} />
       </Heading>
 
-      <div className="h-70 overflow-hidden rounded-2.5xl lg:h-112.5 lg:flex-1">
+      <div className="mx-auto h-70 w-full max-w-105 overflow-hidden rounded-2.5xl lg:mx-0 lg:h-112.5 lg:max-w-none lg:flex-1">
         <img
           src="/images/about/portrait.jpg"
           alt="Anastasiia Trofimenko"

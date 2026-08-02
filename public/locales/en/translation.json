@@ -195,7 +195,8 @@
     "letsTalk": "Let's talk",
     "viewCV": "View my CV",
     "copyright": "Anastasiia Trofimenko. All rights reserved. © 2026",
-    "credits": "Design by me. Development by Serhii Trofimenko."
+    "credits": "Design by me. Development by",
+    "developer": "Serhii Trofimenko"
   },
   "projectsPage": {
     "title": "Projects",
