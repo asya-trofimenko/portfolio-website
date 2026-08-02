@@ -40,7 +40,7 @@ export default function CTASection() {
           </div>
         </div>
 
-        <Heading onDark size="display-xl" className="mb-4">
+        <Heading onDark size="display-xl" className="mb-4 text-center">
           {t('cta.title')}
         </Heading>
 

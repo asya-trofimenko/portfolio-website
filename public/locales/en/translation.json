@@ -202,16 +202,16 @@
     "description": "I create digital products that are clear, engaging, and easy to use. I work on UI/UX for web and mobile products, as well as marketing visuals that help brands stand out."
   },
   "aboutPage": {
-    "bio": "I create digital products and draw inspiration from movement, travel, and the life around me.",
-    "bioExtended": "Beyond design, I'm inspired by drawing, beautiful storefronts, and city walks. I love traveling, returning to the sea, and going to the mountains in winter to ski. Movement and stretching help me maintain balance, and dogs bring joy to everyday life. And Kharkiv will forever remain a part of my heart.",
+    "bio": "I design digital products and draw <u>inspiration</u> from movement, travel and life around me.",
+    "bioExtended": "Beyond design, I’m <c>inspired</c> by <e:pencil>drawing</e>, beautiful storefronts and walks through the city. I love traveling, returning to the <e:wave>sea</e> and heading to the <e:mountain>mountains</e> in winter to ski. Movement and stretching help me stay <u>balanced</u>, while <e:dog>dogs</e> bring <c>extra joy</c> to everyday life. And Kharkiv will always hold a piece of my <e:heart>heart.</e>",
     "career": {
-      "title": "Career",
+      "title": "Careers",
       "items": [
         {
           "role": "UI/UX & Marketing Designer",
           "period": "Present",
-          "company": "Project-based work — BeomyTech, Concepto, Whales Ventures, Coinask",
-          "description": "Working on a project basis with various teams and clients, supporting them with design materials. Projects include websites, SaaS platforms, and marketing materials."
+          "company": "Project Work — BeomyTech, Concepto, Whales Ventures, Coinask",
+          "description": "I work on a project basis with diverse teams and clients, supporting them with design deliverables. Projects include websites, SaaS platforms and marketing materials."
         },
         {
           "role": "UI/UX & Marketing Designer",
@@ -223,19 +223,19 @@
           "role": "UI/UX & Marketing Designer",
           "period": "2024 — 2025",
           "company": "Whales Marketing",
-          "description": "Created a website from scratch as part of a cross-functional team and designed SMM creatives."
+          "description": "Built a website from scratch within a cross-functional team and developed SMM creatives."
         },
         {
           "role": "UI/UX & Marketing Designer",
           "period": "2024 — 2025",
           "company": "Profit Whales",
-          "description": "Created and refined website pages, prepared presentations and supporting materials."
+          "description": "Designed and improved website pages and prepared presentations and supporting materials."
         },
         {
           "role": "UI/UX Designer",
           "period": "2024",
           "company": "CreatiQ",
-          "description": "Collaborated with the team on SaaS platforms and mobile interfaces."
+          "description": "Collaborated with a team on SaaS platforms and mobile interfaces."
         },
         {
           "role": "UI/UX Designer",
@@ -243,34 +243,36 @@
           "company": "Freelance",
           "description": "Worked with startups and small businesses on websites, e-commerce solutions, and marketing visuals."
         }
-      ]
+      ],
+      "viewLinkedin": "View LinkedIn",
+      "viewCv": "View CV"
     },
     "coreValues": {
       "title": "Core Values",
       "items": [
         {
           "title": "Trust",
-          "description": "The best solutions emerge when I trust the team and my own ideas."
+          "description": "Great solutions happen when I trust both my team and my ideas."
         },
         {
           "title": "Growth",
-          "description": "Every project strengthens my skills and opens up new ideas."
+          "description": "Every project strengthens my skills and opens the door to new ideas."
         },
         {
           "title": "Communication",
-          "description": "The best ideas are born through honest dialogue and the ability to listen."
+          "description": "The best ideas are born through honest conversations and active listening."
         },
         {
           "title": "Consistency",
-          "description": "Small steps every day bring me closer to my goals."
+          "description": "Small steps every day move me closer to my goals."
         },
         {
           "title": "Feedback",
-          "description": "Open and honest feedback helps improve every design."
+          "description": "Open and honest feedback helps me refine and elevate every design."
         },
         {
           "title": "Partnership",
-          "description": "I believe in moving forward together and mutual support."
+          "description": "I believe in moving forward together and supporting each other."
         }
       ]
     }

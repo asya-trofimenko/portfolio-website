@@ -39,7 +39,7 @@ export default function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-8">
           <NavItem to="/projects">{t('nav.projects')}</NavItem>
-          {/* <NavItem to="/about">{t('nav.about')}</NavItem> */}
+          <NavItem to="/about">{t('nav.about')}</NavItem>
           <NavItem to={links.linkedin} external>
             {t('nav.linkedin')}
           </NavItem>
