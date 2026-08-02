@@ -26,3 +26,6 @@ dist-ssr
 # Other
 /docs
 /internal
+
+# Claude Code local tooling
+.claude/
