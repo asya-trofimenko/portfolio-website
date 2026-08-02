@@ -20,7 +20,8 @@ export interface ProjectDetail {
   taglineKey: string;
   industryKey: string;
   serviceKey: string;
-  heroImage: string;
+  heroVideo: string;
+  heroPoster: string;
   fullCaseUrl?: string;
   liveWebsiteUrl?: string;
   blocks: ProjectBlock[];
@@ -32,7 +33,8 @@ export const projectDetails: ProjectDetail[] = [
     taglineKey: 'projectDetail.tiptap.tagline',
     industryKey: 'projectDetail.tiptap.industry',
     serviceKey: 'projectDetail.tiptap.service',
-    heroImage: '/images/projects/tiptap.jpg',
+    heroVideo: '/videos/tiptap.mp4',
+    heroPoster: '/videos/posters/tiptap.jpg',
     fullCaseUrl:
       'https://www.behance.net/gallery/236083209/QR-Payment-Platform-UIUX-Design',
     blocks: [
@@ -105,7 +107,8 @@ export const projectDetails: ProjectDetail[] = [
     taglineKey: 'projectDetail.socialtrait.tagline',
     industryKey: 'projectDetail.socialtrait.industry',
     serviceKey: 'projectDetail.socialtrait.service',
-    heroImage: '/images/projects/socialtrait.jpg',
+    heroVideo: '/videos/socialtrait.mp4',
+    heroPoster: '/videos/posters/socialtrait.jpg',
     blocks: [
       {
         type: 'overview',
@@ -169,7 +172,8 @@ export const projectDetails: ProjectDetail[] = [
     taglineKey: 'projectDetail.whalesMarketing.tagline',
     industryKey: 'projectDetail.whalesMarketing.industry',
     serviceKey: 'projectDetail.whalesMarketing.service',
-    heroImage: '/images/projects/whales-marketing.jpg',
+    heroVideo: '/videos/whales-marketing.mp4',
+    heroPoster: '/videos/posters/whales-marketing.jpg',
     fullCaseUrl:
       'https://www.behance.net/gallery/208459769/Marketing-Agency-Website-UIUX-Design',
     liveWebsiteUrl: 'https://whales.marketing/',
@@ -240,7 +244,8 @@ export const projectDetails: ProjectDetail[] = [
     taglineKey: 'projectDetail.vulpesTech.tagline',
     industryKey: 'projectDetail.vulpesTech.industry',
     serviceKey: 'projectDetail.vulpesTech.service',
-    heroImage: '/images/projects/vulpes-tech.jpg',
+    heroVideo: '/videos/vulpes-tech.mp4',
+    heroPoster: '/videos/posters/vulpes-tech.jpg',
     fullCaseUrl:
       'https://www.behance.net/gallery/216427137/IT-Solutions-Website-Landing-Page',
     liveWebsiteUrl: 'https://vulpes-tech.net/',
@@ -304,7 +309,8 @@ export const projectDetails: ProjectDetail[] = [
     taglineKey: 'projectDetail.profitWhales.tagline',
     industryKey: 'projectDetail.profitWhales.industry',
     serviceKey: 'projectDetail.profitWhales.service',
-    heroImage: '/images/projects/profit-whales.jpg',
+    heroVideo: '/videos/profit-whales.mp4',
+    heroPoster: '/videos/posters/profit-whales.jpg',
     liveWebsiteUrl: 'https://profitwhales.com/',
     blocks: [
       {
@@ -354,7 +360,8 @@ export const projectDetails: ProjectDetail[] = [
     taglineKey: 'projectDetail.concepto.tagline',
     industryKey: 'projectDetail.concepto.industry',
     serviceKey: 'projectDetail.concepto.service',
-    heroImage: '/images/projects/concepto.jpg',
+    heroVideo: '/videos/concepto.mp4',
+    heroPoster: '/videos/posters/concepto.jpg',
     blocks: [
       {
         type: 'overview',
@@ -402,7 +409,8 @@ export const projectDetails: ProjectDetail[] = [
     taglineKey: 'projectDetail.illuscriber.tagline',
     industryKey: 'projectDetail.illuscriber.industry',
     serviceKey: 'projectDetail.illuscriber.service',
-    heroImage: '/images/projects/illuscriber.jpg',
+    heroVideo: '/videos/illuscriber.mp4',
+    heroPoster: '/videos/posters/illuscriber.jpg',
     liveWebsiteUrl: 'https://illuscriber.com/',
     blocks: [
       {
@@ -452,7 +460,8 @@ export const projectDetails: ProjectDetail[] = [
     taglineKey: 'projectDetail.flow.tagline',
     industryKey: 'projectDetail.flow.industry',
     serviceKey: 'projectDetail.flow.service',
-    heroImage: '/images/projects/flow.jpg',
+    heroVideo: '/videos/flow.mp4',
+    heroPoster: '/videos/posters/flow.jpg',
     fullCaseUrl:
       'https://www.behance.net/gallery/245133751/Flow-Wellness-Healthcare-Mobile-Application',
     blocks: [

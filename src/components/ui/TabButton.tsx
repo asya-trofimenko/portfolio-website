@@ -2,6 +2,8 @@ interface TabButtonProps {
   children: React.ReactNode;
   active?: boolean;
   onClick?: () => void;
+  onMouseEnter?: () => void;
+  onFocus?: () => void;
   className?: string;
 }
 
@@ -9,11 +11,15 @@ export default function TabButton({
   children,
   active = false,
   onClick,
+  onMouseEnter,
+  onFocus,
   className = '',
 }: Readonly<TabButtonProps>) {
   return (
     <button
       onClick={onClick}
+      onMouseEnter={onMouseEnter}
+      onFocus={onFocus}
       className={`
         inline-flex items-center justify-center rounded-full font-body
         whitespace-nowrap transition-all text-base-dark
