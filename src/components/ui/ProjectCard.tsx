@@ -108,7 +108,7 @@ function CardContent({
       />
 
       {/* Desktop layout: content at bottom, badge on right */}
-      <div className="relative z-10 mt-auto hidden items-end justify-between lg:flex">
+      <div className="relative z-10 mt-auto hidden items-end justify-between gap-6 lg:flex">
         {projectInfo}
         {badge && (
           <span

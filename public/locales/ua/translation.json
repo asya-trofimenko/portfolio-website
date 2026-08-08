@@ -102,42 +102,42 @@
     "items": {
       "tiptap": {
         "title": "TipTap",
-        "description": "Платформа QR платежів",
+        "description": "Платформа QR Платежів",
         "badge": "FinTech"
       },
       "socialtrait": {
         "title": "Socialtrait",
-        "description": "Платформа аналітики аудиторії на основі AI",
+        "description": "Платформа Аналітики Аудиторії на Основі AI",
         "badge": "Generative AI"
       },
       "whalesMarketing": {
         "title": "Whales Marketing",
-        "description": "Агентство цифрового маркетингу",
+        "description": "Агентство Цифрового Маркетингу",
         "badge": "Marketing & Advertising"
       },
       "vulpesTech": {
         "title": "Vulpes-Tech",
-        "description": "Розробка програмного забезпечення та веб-сайтів на замовлення",
+        "description": "Розробка Програмного Забезпечення та Веб-сайтів на Замовлення",
         "badge": "IT"
       },
       "profitWhales": {
         "title": "Profit Whales",
-        "description": "Розвиток та оптимізація на Amazon",
+        "description": "Розвиток та Оптимізація на Amazon",
         "badge": "Amazon Marketing"
       },
       "concepto": {
         "title": "Concepto",
-        "description": "Кампанії для бренду та зростання",
+        "description": "Кампанії для Бренду та Зростання",
         "badge": "Marketing & Advertising"
       },
       "illuscriber": {
         "title": "illuscriber",
-        "description": "Інструмент покращення листингів",
+        "description": "Інструмент Покращення Листингів",
         "badge": "eCommerce Tool"
       },
       "flow": {
         "title": "Flow",
-        "description": "Додаток для управління проєктами",
+        "description": "Адаптивний Wellness-додаток",
         "badge": "Health & Wellness"
       }
     },
