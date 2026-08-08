@@ -107,22 +107,22 @@
       },
       "socialtrait": {
         "title": "Socialtrait",
-        "description": "AI audience insights platform",
+        "description": "AI Audience Insights Platform",
         "badge": "Generative AI"
       },
       "whalesMarketing": {
         "title": "Whales Marketing",
-        "description": "Digital marketing agency",
+        "description": "Digital Marketing Agency",
         "badge": "Marketing & Advertising"
       },
       "vulpesTech": {
         "title": "Vulpes-Tech",
-        "description": "Custom software & web development",
+        "description": "Custom Software & Web Development",
         "badge": "IT"
       },
       "profitWhales": {
         "title": "Profit Whales",
-        "description": "Growth & Optimization on Amazon",
+        "description": "Growth & Optimization On Amazon",
         "badge": "Amazon Marketing"
       },
       "concepto": {
@@ -137,7 +137,7 @@
       },
       "flow": {
         "title": "Flow",
-        "description": "Project management app",
+        "description": "Adaptive Wellness App",
         "badge": "Health & Wellness"
       }
     },
