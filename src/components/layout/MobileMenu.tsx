@@ -99,7 +99,7 @@ export default function MobileMenu({ onClose }: Readonly<MobileMenuProps>) {
           as="a"
           href={`mailto:${links.email}`}
           hierarchy="primary"
-          size="lg"
+          size="xl"
           iconTrailing="arrow-up-right"
           className="w-full justify-center"
         >
