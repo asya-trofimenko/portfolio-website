@@ -17,7 +17,13 @@ function PolaroidCard({ polaroid }: Readonly<{ polaroid: Polaroid }>) {
           src={polaroid.src}
           alt=""
           aria-hidden="true"
-          loading="lazy"
+          width={598}
+          height={640}
+          // The marquee slides cards in from off-screen, so lazy loading would
+          // only start the fetch once a card is already visible — leaving an
+          // empty polaroid frame until it lands. Load up front at low priority.
+          fetchPriority="low"
+          decoding="async"
           className="h-52 w-full rounded-sm object-cover lg:h-76.5"
         />
       </div>

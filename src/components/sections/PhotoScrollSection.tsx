@@ -65,7 +65,11 @@ function PhotoCard({ photo }: Readonly<{ photo: PhotoItem }>) {
         src={photo.src}
         alt={photo.alt}
         className="size-full object-cover"
-        loading="lazy"
+        // The marquee slides cards in from off-screen, so lazy loading would
+        // only start the fetch once a card is already visible. Load up front
+        // at low priority instead.
+        fetchPriority="low"
+        decoding="async"
       />
     </div>
   );
