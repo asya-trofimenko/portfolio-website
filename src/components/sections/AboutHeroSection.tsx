@@ -6,18 +6,10 @@ export default function AboutHeroSection() {
   const { t } = useTranslation();
 
   return (
-    <section className="mx-auto flex w-full max-w-360 flex-col gap-6 px-4 md:px-8 lg:flex-row lg:px-12">
-      <Heading size="display-2xl" as="h1" className="lg:flex-1">
+    <section className="mx-auto w-full max-w-360 px-4 md:px-8 lg:px-12">
+      <Heading size="display-2xl" as="h1" className="text-center">
         <AnnotatedText value={t('aboutPage.bio')} />
       </Heading>
-
-      <div className="mx-auto h-70 w-full max-w-105 overflow-hidden rounded-2.5xl lg:mx-0 lg:h-112.5 lg:max-w-none lg:flex-1">
-        <img
-          src="/images/about/portrait.jpg"
-          alt="Anastasiia Trofimenko"
-          className="size-full object-cover"
-        />
-      </div>
     </section>
   );
 }

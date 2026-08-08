@@ -35,8 +35,16 @@ export default function AboutBioSection() {
   const { t } = useTranslation();
 
   return (
-    <section className="overflow-x-clip pt-16 lg:pt-20">
-      <div className="mx-auto w-full max-w-360 px-4 md:px-8 lg:px-12">
+    <section className="overflow-x-clip py-16 lg:py-20">
+      <div className="mx-auto w-full max-w-360">
+        <MarqueeCss duration={40}>
+          {polaroids.map((polaroid) => (
+            <PolaroidCard key={polaroid.src} polaroid={polaroid} />
+          ))}
+        </MarqueeCss>
+      </div>
+
+      <div className="mx-auto mt-16 w-full max-w-360 px-4 md:px-8 lg:mt-20 lg:px-12">
         {/* Figma spaces these lines wider than the display-lg default leading. */}
         <Text
           size="body-3xl"
@@ -45,14 +53,6 @@ export default function AboutBioSection() {
         >
           <AnnotatedText value={t('aboutPage.bioExtended')} />
         </Text>
-      </div>
-
-      <div className="mx-auto w-full max-w-360 py-16 lg:py-20">
-        <MarqueeCss duration={40}>
-          {polaroids.map((polaroid) => (
-            <PolaroidCard key={polaroid.src} polaroid={polaroid} />
-          ))}
-        </MarqueeCss>
       </div>
     </section>
   );
