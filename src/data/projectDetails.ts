@@ -311,7 +311,6 @@ export const projectDetails: ProjectDetail[] = [
     serviceKey: 'projectDetail.profitWhales.service',
     heroVideo: '/videos/profit-whales.mp4',
     heroPoster: '/videos/posters/profit-whales.jpg',
-    liveWebsiteUrl: 'https://profitwhales.com/',
     blocks: [
       {
         type: 'overview',
@@ -351,7 +350,6 @@ export const projectDetails: ProjectDetail[] = [
       {
         type: 'result',
         textKey: 'projectDetail.profitWhales.result.text',
-        liveWebsiteUrl: 'https://profitwhales.com/',
       },
     ],
   },

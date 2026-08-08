@@ -6,6 +6,7 @@ export const projects: Project[] = [
     titleKey: 'projects.items.flow.title',
     descriptionKey: 'projects.items.flow.description',
     image: '/images/projects/flow.jpg',
+    badgeKey: 'projects.items.flow.badge',
     categories: ['uiux'],
   },
   {
