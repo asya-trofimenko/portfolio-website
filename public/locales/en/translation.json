@@ -15,7 +15,7 @@
   "hero": {
     "greeting": {
       "line1": "Hi, I'm Anastasiia Trofimenko, ",
-      "line2": "a UI/UX & Marketing Designer crafting thoughtful web and mobile experiences."
+      "line2": "a UX/UI & Marketing Designer crafting thoughtful web and mobile experiences."
     },
     "availability": {
       "label": "Availability",
@@ -37,7 +37,7 @@
   "expertise": {
     "title": "Core Expertise",
     "uiux": {
-      "title": "UI/UX Design",
+      "title": "UX/UI Design",
       "description": "User flows, information architecture, wireframing, interaction design, responsive interfaces."
     },
     "marketing": {
@@ -59,7 +59,7 @@
   "services": {
     "title": "Services",
     "tabs": {
-      "uiux": "UI/UX Design",
+      "uiux": "UX/UI Design",
       "marketing": "Marketing Design"
     },
     "uiux": {
@@ -96,7 +96,7 @@
     "viewAll": "View all projects",
     "tabs": {
       "all": "All",
-      "uiux": "UI/UX Design",
+      "uiux": "UX/UI Design",
       "marketing": "Marketing Design"
     },
     "items": {
@@ -140,7 +140,7 @@
         "description": "Project management app"
       }
     },
-    "heroDescription": "I design digital experiences that feel clear, engaging, and easy to use. I work on UI/UX for web and mobile products, as well as marketing visuals that help brands stand out."
+    "heroDescription": "I design digital experiences that feel clear, engaging, and easy to use. I work on UX/UI for web and mobile products, as well as marketing visuals that help brands stand out."
   },
   "cta": {
     "remoteFriendly": "Remote & Europe-friendly",
@@ -186,7 +186,7 @@
       },
       {
         "name": "Ilona Fomina",
-        "text": "I highly recommend Anastasiia Trofimenko as a professional UI/UX designer. Throughout our collaboration on the web development project for the American company, I was consistently impressed by her creativity, professionalism, and unwavering dedication.\n\nAnastasia possesses a unique combination of artistic creativity and technical proficiency, crafting intuitive interfaces that surpass expectations. Her excellent communication skills, ability to adapt to dynamic environments, and innovative mindset set her apart.\n\nIn summary, Anastasia is a true professional, and I have full confidence in her ability to positively impact any UI/UX design position she undertakes."
+        "text": "I highly recommend Anastasiia Trofimenko as a professional UX/UI designer. Throughout our collaboration on the web development project for the American company, I was consistently impressed by her creativity, professionalism, and unwavering dedication.\n\nAnastasia possesses a unique combination of artistic creativity and technical proficiency, crafting intuitive interfaces that surpass expectations. Her excellent communication skills, ability to adapt to dynamic environments, and innovative mindset set her apart.\n\nIn summary, Anastasia is a true professional, and I have full confidence in her ability to positively impact any UX/UI design position she undertakes."
       }
     ]
   },
@@ -200,7 +200,7 @@
   },
   "projectsPage": {
     "title": "Projects",
-    "description": "I create digital products that are clear, engaging, and easy to use. I work on UI/UX for web and mobile products, as well as marketing visuals that help brands stand out."
+    "description": "I create digital products that are clear, engaging, and easy to use. I work on UX/UI for web and mobile products, as well as marketing visuals that help brands stand out."
   },
   "aboutPage": {
     "bio": "I design digital products and draw <u>inspiration</u> from movement, travel and life around me.",
@@ -209,37 +209,37 @@
       "title": "Careers",
       "items": [
         {
-          "role": "UI/UX & Marketing Designer",
+          "role": "UX/UI & Marketing Designer",
           "period": "Present",
           "company": "Project Work — BeomyTech, Concepto, Whales Ventures, Coinask",
           "description": "I work on a project basis with diverse teams and clients, supporting them with design deliverables. Projects include websites, SaaS platforms and marketing materials."
         },
         {
-          "role": "UI/UX & Marketing Designer",
+          "role": "UX/UI & Marketing Designer",
           "period": "2024 — Present",
           "company": "Socialtrait",
           "description": "Redesigned the landing page and create marketing materials that strengthen brand communication and identity."
         },
         {
-          "role": "UI/UX & Marketing Designer",
+          "role": "UX/UI & Marketing Designer",
           "period": "2024 — 2025",
           "company": "Whales Marketing",
           "description": "Built a website from scratch within a cross-functional team and developed SMM creatives."
         },
         {
-          "role": "UI/UX & Marketing Designer",
+          "role": "UX/UI & Marketing Designer",
           "period": "2024 — 2025",
           "company": "Profit Whales",
           "description": "Designed and improved website pages and prepared presentations and supporting materials."
         },
         {
-          "role": "UI/UX Designer",
+          "role": "UX/UI Designer",
           "period": "2024",
           "company": "CreatiQ",
           "description": "Collaborated with a team on SaaS platforms and mobile interfaces."
         },
         {
-          "role": "UI/UX Designer",
+          "role": "UX/UI Designer",
           "period": "2021 — 2024",
           "company": "Freelance",
           "description": "Worked with startups and small businesses on websites, e-commerce solutions, and marketing visuals."
@@ -296,7 +296,7 @@
     "tiptap": {
       "tagline": "QR Payment Platform",
       "industry": "FinTech",
-      "service": "UI/UX & Marketing Design",
+      "service": "UX/UI & Marketing Design",
       "overview": {
         "text": "TipTap is a QR platform for fast and convenient payments. Businesses can create invoices with QR codes, and customers can pay them instantly from their phones. The platform simplifies the payment process, saves time and ensures convenient interaction between companies and customers."
       },
@@ -314,7 +314,7 @@
           "text": "The platform has a clean, modern design with an emphasis on pink for key elements. The main palette includes neutral shades of black, white, and gray, creating a calm visual space where accents attract attention without overloading the interface."
         },
         "uiuxDesign": {
-          "title": "UI/UX Design",
+          "title": "UX/UI Design",
           "text": "The platform was developed from scratch with a complete structure and intuitive navigation. The interface is adapted to different devices, remaining convenient and understandable for all users. Special attention was paid to AppBuilder, which allows each business to customize the platform to suit their customers' needs, creating a personalized interface. This well-thought-out structure speeds up the user's work and makes interaction with the platform as simple, comfortable, and effective as possible."
         }
       },
@@ -325,7 +325,7 @@
     "socialtrait": {
       "tagline": "AI audience insights platform",
       "industry": "Generative AI",
-      "service": "UI/UX & Marketing Design",
+      "service": "UX/UI & Marketing Design",
       "overview": {
         "text": "Socialtrait is a cutting-edge platform that uses generative AI and community simulation to provide fast, cost-effective, and in-depth consumer insights. By building AI-powered virtual communities, the platform captures real-time feedback on products and services, combining qualitative and quantitative research to deliver actionable results. Socialtrait is recognized globally for shaping the future of audience insights through advanced AI technology."
       },
@@ -338,7 +338,7 @@
       },
       "solution": {
         "uiuxDesign": {
-          "title": "UI/UX Design",
+          "title": "UX/UI Design",
           "text": "The landing page was designed from scratch in collaboration with the lead designer and marketing manager. The platform features a clear structure, intuitive navigation, and subtle animations that enhance the user experience. All interfaces are fully responsive and adapted for mobile devices. The design provides clarity, accessibility, and a professional look while supporting Socialtrait's innovative AI-driven approach."
         },
         "marketingDesign": {
@@ -353,7 +353,7 @@
     "whalesMarketing": {
       "tagline": "Digital marketing agency",
       "industry": "Marketing & Advertising",
-      "service": "UI/UX & Marketing Design",
+      "service": "UX/UI & Marketing Design",
       "overview": {
         "text": "Whales Marketing is a data-driven, tech-focused marketing agency helping brands navigate the digital ocean. They specialize in growing brand awareness, driving performance, and launching campaigns that reach the right audience."
       },
@@ -366,7 +366,7 @@
       },
       "solution": {
         "uiuxDesign": {
-          "title": "UI/UX Design",
+          "title": "UX/UI Design",
           "text": "The website was designed from concept to final delivery in close collaboration with the team. It features a clear structure, intuitive navigation, and responsive interfaces for seamless experience across devices. The UI is visually clean and modern, reflecting the agency's tech-driven approach, while making complex services easy to understand for clients."
         },
         "marketingDesign": {
@@ -381,7 +381,7 @@
     "vulpesTech": {
       "tagline": "Custom software & web development",
       "industry": "IT",
-      "service": "UI/UX Design",
+      "service": "UX/UI Design",
       "overview": {
         "text": "Vulpes-Tech is a forward-thinking IT company founded by Ukrainian professionals, helping businesses strengthen their digital presence through innovative products and smart development solutions. The company focuses on delivering modern, high-quality digital experiences that support strong business positioning and brand recognition."
       },
@@ -399,7 +399,7 @@
           "text": "A dark-themed visual style was created to match the client's vision and emphasize a modern, high-tech feel. Clean typography and accent highlights enhance readability while reinforcing a sleek and professional brand image."
         },
         "uiuxDesign": {
-          "title": "UI/UX Design",
+          "title": "UX/UI Design",
           "text": "A responsive landing page was designed to present key information in a clear and structured flow. The interface combines intuitive navigation with well-organized sections, including About, Services, Skills, Portfolio, Team, Blog, Testimonials, and Contact."
         }
       },
@@ -410,7 +410,7 @@
     "profitWhales": {
       "tagline": "Amazon growth & optimization",
       "industry": "Amazon Marketing",
-      "service": "UI/UX & Marketing Design",
+      "service": "UX/UI & Marketing Design",
       "overview": {
         "text": "Profit Whales is a performance-driven Amazon marketing agency focused on helping brands scale through PPC, DSP advertising, listing optimization, and growth strategies."
       },
@@ -423,7 +423,7 @@
       },
       "solution": {
         "uiuxDesign": {
-          "title": "UI/UX Design",
+          "title": "UX/UI Design",
           "text": "Designed new website pages and redesigned existing ones in collaboration with the project manager, improving structure, clarity, and user flow while ensuring consistency across the site."
         },
         "marketingDesign": {
@@ -438,7 +438,7 @@
     "concepto": {
       "tagline": "Brand & growth campaigns",
       "industry": "Marketing & Advertising",
-      "service": "UI/UX & Marketing Design",
+      "service": "UX/UI & Marketing Design",
       "overview": {
         "text": "Concepto is a full-cycle strategic and creative agency helping brands grow through brand strategy, design, and performance marketing. The agency has partnered with Fortune Global 100 companies and launched campaigns across 12 countries, transforming cultural insight into measurable business growth."
       },
@@ -451,7 +451,7 @@
       },
       "solution": {
         "uiuxDesign": {
-          "title": "UI/UX Design",
+          "title": "UX/UI Design",
           "text": "Adapted and refined website interface elements based on existing design templates, ensuring visual consistency and a polished result aligned with the agency's brand standards."
         },
         "marketingDesign": {
@@ -466,7 +466,7 @@
     "illuscriber": {
       "tagline": "Listing enhancement tool",
       "industry": "eCommerce Tool",
-      "service": "UI/UX Design",
+      "service": "UX/UI Design",
       "overview": {
         "text": "Illuscriber is an eCommerce tool designed to improve clothing marketplace listings through visual item descriptions. The platform transforms key product details, such as condition, measurements and fit into clear infographic-style visuals that buyers can instantly understand. By placing essential information directly within the image gallery, Illuscriber helps sellers communicate item details more effectively and increase buyer confidence."
       },
@@ -480,7 +480,7 @@
       },
       "solution": {
         "uiuxDesign": {
-          "title": "UI/UX Design",
+          "title": "UX/UI Design",
           "text": "Designed the interface with support from the lead designer, aligning visual and usability decisions with the product vision. Selected and integrated supportive illustrations to improve clarity and guide users through key screens such as sign up and sign in. Structured input fields and simplified the workflow to support a smooth, intuitive experience for sellers creating visual item descriptions."
         }
       },
@@ -491,7 +491,7 @@
     "flow": {
       "tagline": "Adaptive Wellness App",
       "industry": "Health & Wellness",
-      "service": "UI/UX Design",
+      "service": "UX/UI Design",
       "overview": {
         "text": "Flow is a wellness app designed for personalized one-on-one sessions in yoga, meditation, pilates, and breathwork. The platform transforms daily practice into a structured and guided experience, adapting to each user's rhythm, energy level, and lifestyle. It focuses on creating a calm, intuitive space where users can reconnect with their body and mind."
       },
@@ -505,7 +505,7 @@
       },
       "solution": {
         "uiuxDesign": {
-          "title": "UI/UX Design",
+          "title": "UX/UI Design",
           "text": "Designed a mobile app experience focused on simplicity, clarity, and emotional comfort. The interface guides users through personalized sessions tailored to their daily state, combining structured flows with a flexible, adaptive approach. Special attention was given to intuitive navigation, soft visual hierarchy, and a calm aesthetic that enhances the overall wellness experience."
         }
       },
