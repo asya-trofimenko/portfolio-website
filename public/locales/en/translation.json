@@ -14,8 +14,8 @@
   },
   "hero": {
     "greeting": {
-      "line1": "Hi, I'm Anastasiia Trofimenko, ",
-      "line2": "a UX/UI & Marketing Designer crafting thoughtful web and mobile experiences."
+      "line1": "Hi, I'm <u2>Anastasiia Trofimenko</u2>, ",
+      "line2": "a UX/UI & Marketing Designer crafting thoughtful <u>web</u> and <u>mobile</u> experiences."
     },
     "availability": {
       "label": "Availability",

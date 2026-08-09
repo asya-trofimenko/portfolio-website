@@ -1,19 +1,42 @@
 import { Fragment, type ReactNode } from 'react';
 
 /**
- * Inline markup used by the About page copy:
+ * Inline markup used by the hero and About page copy:
  *   <c>phrase</c>          hand-drawn circle around the phrase (up to two words)
- *   <u>word</u>            hand-drawn underline (a single word)
+ *   <u>phrase</u>          hand-drawn underline
+ *   <u2>phrase</u2>        the same, drawn with the second, flatter stroke
  *   <e:pencil>drawing</e>  the word plus its emoji, which always follows the word
  *                          and never wraps away from it
  *
  * Every language has its own markup, so the circled/underlined words can sit on
  * whichever word carries the meaning in that language.
  */
-const TOKEN = /<(c|u)>(.*?)<\/\1>|<e:([a-z]+)>(.*?)<\/e>/g;
+const TOKEN = /<(c|u|u2)>(.*?)<\/\1>|<e:([a-z]+)>(.*?)<\/e>/g;
 
 const CIRCLE_SCRIBBLE = '/images/circle-scribble-1.svg';
-const LINE_SCRIBBLE = '/images/scribble-line-1.svg';
+
+/**
+ * The two underline strokes, each at the height and overhang the design gives
+ * it. Note the file names are the reverse of the Figma layer names:
+ * `scribble-line-1.svg` holds "Line Scribble_2" and vice versa.
+ *
+ * `u2` reaches well past its word: neighbouring strokes then overlap by more
+ * than the length of the tapered tips they end in, so a run of underlined words
+ * joins without a visible waist. The overhang is in `em` to hold at any heading
+ * size.
+ */
+const LINE_SCRIBBLES = {
+  u: {
+    src: '/images/scribble-line-1.svg',
+    size: 'h-3.25 bottom-0 w-[calc(100%+12px)] lg:h-5.25',
+  },
+  u2: {
+    src: '/images/scribble-line-2.svg',
+    size: 'h-2.75 -bottom-0.75 w-[calc(100%+0.5em)] lg:h-4.5 lg:-bottom-0.25',
+  },
+} as const;
+
+type UnderlineVariant = keyof typeof LINE_SCRIBBLES;
 
 function Circled({ children }: Readonly<{ children: ReactNode }>) {
   return (
@@ -31,19 +54,33 @@ function Circled({ children }: Readonly<{ children: ReactNode }>) {
   );
 }
 
-function Underlined({ children }: Readonly<{ children: ReactNode }>) {
-  return (
-    // `isolate` for the same reason as in `Circled`.
-    <span className="relative isolate inline-block whitespace-nowrap">
-      {children}
-      <img
-        src={LINE_SCRIBBLE}
-        alt=""
-        aria-hidden="true"
-        className="pointer-events-none absolute bottom-0 left-1/2 -z-10 h-3.25 w-[calc(100%+12px)] max-w-none translate-x-[-50%] lg:h-5.25"
-      />
-    </span>
-  );
+/**
+ * Underlines a phrase with one stroke per word, so the strokes follow the words
+ * when the copy rewraps. Every second word is mirrored end to end: that lands
+ * the two strokes at the same height where they meet, and a run of words on one
+ * line reads as a single unbroken underline.
+ */
+function Underlined({
+  variant,
+  children,
+}: Readonly<{ variant: UnderlineVariant; children: string }>) {
+  const { src, size } = LINE_SCRIBBLES[variant];
+
+  return children.split(' ').map((word, i) => (
+    <Fragment key={i}>
+      {i > 0 && ' '}
+      {/* `isolate` for the same reason as in `Circled`. */}
+      <span className="relative isolate inline-block whitespace-nowrap">
+        {word}
+        <img
+          src={src}
+          alt=""
+          aria-hidden="true"
+          className={`pointer-events-none absolute left-1/2 -z-10 max-w-none translate-x-[-50%] ${size} ${i % 2 === 1 ? '-scale-x-100' : ''}`}
+        />
+      </span>
+    </Fragment>
+  ));
 }
 
 /**
@@ -93,7 +130,10 @@ export default function AnnotatedText({ value }: Readonly<{ value: string }>) {
     if (match.index > lastIndex) parts.push(value.slice(lastIndex, match.index));
     if (emoji) parts.push(<Illustrated emoji={emoji}>{illustrated}</Illustrated>);
     else if (tag === 'c') parts.push(<Circled>{phrase}</Circled>);
-    else parts.push(<Underlined>{phrase}</Underlined>);
+    else
+      parts.push(
+        <Underlined variant={tag as UnderlineVariant}>{phrase}</Underlined>,
+      );
 
     lastIndex = match.index + full.length;
     match = token.exec(value);
