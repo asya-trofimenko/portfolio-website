@@ -2,6 +2,14 @@ export type ProjectCategory = 'uiux' | 'marketing';
 
 export const projects: Project[] = [
   {
+    slug: 'lumi',
+    titleKey: 'projects.items.lumi.title',
+    descriptionKey: 'projects.items.lumi.description',
+    image: '/images/projects/lumi.jpg',
+    badgeKey: 'projects.items.lumi.badge',
+    categories: ['uiux'],
+  },
+  {
     slug: 'nexton',
     titleKey: 'projects.items.nexton.title',
     descriptionKey: 'projects.items.nexton.description',

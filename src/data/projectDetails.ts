@@ -29,6 +29,57 @@ export interface ProjectDetail {
 
 export const projectDetails: ProjectDetail[] = [
   {
+    slug: 'lumi',
+    taglineKey: 'projectDetail.lumi.tagline',
+    industryKey: 'projectDetail.lumi.industry',
+    serviceKey: 'projectDetail.lumi.service',
+    heroVideo: '/videos/lumi.mp4',
+    heroPoster: '/videos/posters/lumi.jpg',
+    fullCaseUrl:
+      'https://www.behance.net/gallery/253723759/Lumi-AI-Powered-Beauty-E-commerce',
+    blocks: [
+      {
+        type: 'overview',
+        textKey: 'projectDetail.lumi.overview.text',
+        image: '/images/projects/lumi/overview.jpg',
+      },
+      {
+        type: 'challenge',
+        itemKeys: [
+          'projectDetail.lumi.challenge.items.0',
+          'projectDetail.lumi.challenge.items.1',
+          'projectDetail.lumi.challenge.items.2',
+          'projectDetail.lumi.challenge.items.3',
+          'projectDetail.lumi.challenge.items.4',
+        ],
+      },
+      {
+        type: 'solution',
+        titleKey: 'projectDetail.lumi.solution.uiuxDesign.title',
+        textKey: 'projectDetail.lumi.solution.uiuxDesign.text',
+      },
+      {
+        type: 'photo-wrapper',
+        rows: [
+          { type: 'single', image: '/images/projects/lumi/uiux-1.jpg' },
+          {
+            type: 'duo',
+            images: [
+              '/images/projects/lumi/uiux-2.jpg',
+              '/images/projects/lumi/uiux-3.jpg',
+            ],
+          },
+        ],
+      },
+      {
+        type: 'result',
+        textKey: 'projectDetail.lumi.result.text',
+        fullCaseUrl:
+          'https://www.behance.net/gallery/253723759/Lumi-AI-Powered-Beauty-E-commerce',
+      },
+    ],
+  },
+  {
     slug: 'nexton',
     taglineKey: 'projectDetail.nexton.tagline',
     industryKey: 'projectDetail.nexton.industry',
