@@ -139,6 +139,11 @@
         "title": "Flow",
         "description": "Adaptive Wellness App",
         "badge": "Health & Wellness"
+      },
+      "nexton": {
+        "title": "Nexton",
+        "description": "Personal Finance App",
+        "badge": "FinTech"
       }
     },
     "heroDescription": "I design digital experiences that feel clear, engaging, and easy to use. I work on UX/UI for web and mobile products, as well as marketing visuals that help brands stand out."
@@ -512,6 +517,31 @@
       },
       "result": {
         "text": "The final design delivers a cohesive and intuitive wellness experience that supports daily routines and mindful practices. The app creates a sense of flow and balance, helping users stay engaged, reduce friction in their routines, and build consistent habits through a clear and calming interface."
+      }
+    },
+    "nexton": {
+      "tagline": "Personal Finance App",
+      "industry": "FinTech",
+      "service": "UX/UI Design",
+      "overview": {
+        "text": "Nexton is a modern fintech mobile app designed to simplify personal finance management. The app helps users track spending, manage transactions, analyze their financial habits, and set savings goals through a clean, intuitive, and secure experience. It brings essential money management tools together in one place, helping users make smarter financial decisions."
+      },
+      "challenge": {
+        "items": [
+          "Create a simple and intuitive finance experience that makes money management accessible for everyday users.",
+          "Organize complex financial data, including transactions, spending insights, and savings goals, in a clear way.",
+          "Design a trustworthy interface that communicates security and reliability.",
+          "Develop smooth user flows that help users track their finances and build better habits."
+        ]
+      },
+      "solution": {
+        "uiuxDesign": {
+          "title": "UX/UI Design",
+          "text": "Designed a mobile banking experience focused on clarity, usability, and user confidence. The interface was structured around key financial activities, including balance tracking, transaction management, spending analytics, and savings goals."
+        }
+      },
+      "result": {
+        "text": "The final design delivers a modern and user-friendly fintech experience that simplifies daily financial management. Nexton helps users gain better control over their money through clear insights, organized financial data, and goal-oriented features, creating a seamless experience for building healthier financial habits."
       }
     }
   }

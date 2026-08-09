@@ -29,6 +29,62 @@ export interface ProjectDetail {
 
 export const projectDetails: ProjectDetail[] = [
   {
+    slug: 'nexton',
+    taglineKey: 'projectDetail.nexton.tagline',
+    industryKey: 'projectDetail.nexton.industry',
+    serviceKey: 'projectDetail.nexton.service',
+    heroVideo: '/videos/nexton.mp4',
+    heroPoster: '/videos/posters/nexton.jpg',
+    fullCaseUrl:
+      'https://www.behance.net/gallery/252841105/Nexton-Mobile-Banking-App-FinTech',
+    blocks: [
+      {
+        type: 'overview',
+        textKey: 'projectDetail.nexton.overview.text',
+        image: '/images/projects/nexton/overview.jpg',
+      },
+      {
+        type: 'challenge',
+        itemKeys: [
+          'projectDetail.nexton.challenge.items.0',
+          'projectDetail.nexton.challenge.items.1',
+          'projectDetail.nexton.challenge.items.2',
+          'projectDetail.nexton.challenge.items.3',
+        ],
+      },
+      {
+        type: 'solution',
+        titleKey: 'projectDetail.nexton.solution.uiuxDesign.title',
+        textKey: 'projectDetail.nexton.solution.uiuxDesign.text',
+      },
+      {
+        type: 'photo-wrapper',
+        rows: [
+          {
+            type: 'duo',
+            images: [
+              '/images/projects/nexton/uiux-1.jpg',
+              '/images/projects/nexton/uiux-2.jpg',
+            ],
+          },
+          {
+            type: 'duo',
+            images: [
+              '/images/projects/nexton/uiux-3.jpg',
+              '/images/projects/nexton/uiux-4.jpg',
+            ],
+          },
+        ],
+      },
+      {
+        type: 'result',
+        textKey: 'projectDetail.nexton.result.text',
+        fullCaseUrl:
+          'https://www.behance.net/gallery/252841105/Nexton-Mobile-Banking-App-FinTech',
+      },
+    ],
+  },
+  {
     slug: 'tiptap',
     taglineKey: 'projectDetail.tiptap.tagline',
     industryKey: 'projectDetail.tiptap.industry',
