@@ -305,9 +305,7 @@
       "liveWebsite": "Live Website"
     },
     "tiptap": {
-      "tagline": "QR Payment Platform",
-      "industry": "FinTech",
-      "service": "UX/UI & Marketing Design",
+      "service": "UX/UI Design",
       "overview": {
         "text": "TipTap is a QR platform for fast and convenient payments. Businesses can create invoices with QR codes, and customers can pay them instantly from their phones. The platform simplifies the payment process, saves time and ensures convenient interaction between companies and customers."
       },
@@ -334,8 +332,6 @@
       }
     },
     "socialtrait": {
-      "tagline": "AI audience insights platform",
-      "industry": "Generative AI",
       "service": "UX/UI & Marketing Design",
       "overview": {
         "text": "Socialtrait is a cutting-edge platform that uses generative AI and community simulation to provide fast, cost-effective, and in-depth consumer insights. By building AI-powered virtual communities, the platform captures real-time feedback on products and services, combining qualitative and quantitative research to deliver actionable results. Socialtrait is recognized globally for shaping the future of audience insights through advanced AI technology."
@@ -362,8 +358,6 @@
       }
     },
     "whalesMarketing": {
-      "tagline": "Digital marketing agency",
-      "industry": "Marketing & Advertising",
       "service": "UX/UI & Marketing Design",
       "overview": {
         "text": "Whales Marketing is a data-driven, tech-focused marketing agency helping brands navigate the digital ocean. They specialize in growing brand awareness, driving performance, and launching campaigns that reach the right audience."
@@ -390,8 +384,6 @@
       }
     },
     "vulpesTech": {
-      "tagline": "Custom software & web development",
-      "industry": "IT",
       "service": "UX/UI Design",
       "overview": {
         "text": "Vulpes-Tech is a forward-thinking IT company founded by Ukrainian professionals, helping businesses strengthen their digital presence through innovative products and smart development solutions. The company focuses on delivering modern, high-quality digital experiences that support strong business positioning and brand recognition."
@@ -419,8 +411,6 @@
       }
     },
     "profitWhales": {
-      "tagline": "Amazon growth & optimization",
-      "industry": "Amazon Marketing",
       "service": "UX/UI & Marketing Design",
       "overview": {
         "text": "Profit Whales is a performance-driven Amazon marketing agency focused on helping brands scale through PPC, DSP advertising, listing optimization, and growth strategies."
@@ -447,8 +437,6 @@
       }
     },
     "concepto": {
-      "tagline": "Brand & growth campaigns",
-      "industry": "Marketing & Advertising",
       "service": "UX/UI & Marketing Design",
       "overview": {
         "text": "Concepto is a full-cycle strategic and creative agency helping brands grow through brand strategy, design, and performance marketing. The agency has partnered with Fortune Global 100 companies and launched campaigns across 12 countries, transforming cultural insight into measurable business growth."
@@ -475,8 +463,6 @@
       }
     },
     "illuscriber": {
-      "tagline": "Listing enhancement tool",
-      "industry": "eCommerce Tool",
       "service": "UX/UI Design",
       "overview": {
         "text": "Illuscriber is an eCommerce tool designed to improve clothing marketplace listings through visual item descriptions. The platform transforms key product details, such as condition, measurements and fit into clear infographic-style visuals that buyers can instantly understand. By placing essential information directly within the image gallery, Illuscriber helps sellers communicate item details more effectively and increase buyer confidence."
@@ -500,8 +486,6 @@
       }
     },
     "flow": {
-      "tagline": "Adaptive Wellness App",
-      "industry": "Health & Wellness",
       "service": "UX/UI Design",
       "overview": {
         "text": "Flow is a wellness app designed for personalized one-on-one sessions in yoga, meditation, pilates, and breathwork. The platform transforms daily practice into a structured and guided experience, adapting to each user's rhythm, energy level, and lifestyle. It focuses on creating a calm, intuitive space where users can reconnect with their body and mind."
@@ -525,8 +509,6 @@
       }
     },
     "nexton": {
-      "tagline": "Personal Finance App",
-      "industry": "FinTech",
       "service": "UX/UI Design",
       "overview": {
         "text": "Nexton is a modern fintech mobile app designed to simplify personal finance management. The app helps users track spending, manage transactions, analyze their financial habits, and set savings goals through a clean, intuitive, and secure experience. It brings essential money management tools together in one place, helping users make smarter financial decisions."
@@ -550,8 +532,6 @@
       }
     },
     "lumi": {
-      "tagline": "AI-Powered E-commerce Platform",
-      "industry": "Beauty & Skincare",
       "service": "UX/UI Design",
       "overview": {
         "text": "Lumi is an AI-powered beauty e-commerce platform designed to create a personalized skincare experience. The platform helps users discover suitable products through AI skin analysis, personalized recommendations, and a guided routine builder. By combining technology with beauty expertise, Lumi makes skincare shopping more intuitive, informed, and tailored to each user's needs."
