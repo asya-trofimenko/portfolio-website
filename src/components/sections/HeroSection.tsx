@@ -14,32 +14,33 @@ export default function HeroSection() {
 
   return (
     <section className="mx-auto w-full max-w-360 px-4 md:px-8 lg:px-12 flex flex-col gap-6 lg:gap-8">
-      {/* Heading with decorative scribbles */}
-      <div className="relative overflow-hidden">
+      {/* Heading with decorative scribbles. `isolate` lets the scribbles sit
+          behind the heading via `-z-10` without falling behind the page. */}
+      <div className="relative isolate overflow-hidden">
         {/* Mobile scribbles */}
         <img
           src="/images/scribble-line-1.svg"
           alt=""
           aria-hidden="true"
-          className="absolute pointer-events-none lg:hidden top-8.75 left-24.75 w-48.75 h-3.5"
+          className="absolute pointer-events-none -z-10 lg:hidden top-8.75 left-24.75 w-48.75 h-3.5"
         />
         <img
           src="/images/scribble-line-1.svg"
           alt=""
           aria-hidden="true"
-          className="absolute pointer-events-none lg:hidden top-19.5 left-0 w-48.75 h-3.5"
+          className="absolute pointer-events-none -z-10 lg:hidden top-19.5 left-0 w-48.75 h-3.5"
         />
         {/* <img
           src="/images/scribble-line-2.svg"
           alt=""
           aria-hidden="true"
-          className="absolute pointer-events-none lg:hidden top-53 left-45.75 w-35 h-3"
+          className="absolute pointer-events-none -z-10 lg:hidden top-53 left-45.75 w-35 h-3"
         />
         <img
           src="/images/scribble-line-2.svg"
           alt=""
           aria-hidden="true"
-          className="absolute pointer-events-none lg:hidden top-63.75 left-0 w-full h-3"
+          className="absolute pointer-events-none -z-10 lg:hidden top-63.75 left-0 w-full h-3"
         /> */}
 
         {/* Desktop scribbles */}
@@ -47,13 +48,13 @@ export default function HeroSection() {
           src="/images/scribble-line-1.svg"
           alt=""
           aria-hidden="true"
-          className="absolute pointer-events-none hidden lg:block top-18.25 left-53 w-190.25 h-5.5"
+          className="absolute pointer-events-none -z-10 hidden lg:block top-18.25 left-53 w-190.25 h-5.5"
         />
         {/* <img
           src="/images/scribble-line-2.svg"
           alt=""
           aria-hidden="true"
-          className="absolute pointer-events-none hidden lg:block top-64 left-90.5 w-239.75 h-4.5"
+          className="absolute pointer-events-none -z-10 hidden lg:block top-64 left-90.5 w-239.75 h-4.5"
         /> */}
 
         <Heading size="display-2xl">

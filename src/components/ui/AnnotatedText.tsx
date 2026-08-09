@@ -17,13 +17,15 @@ const LINE_SCRIBBLE = '/images/scribble-line-1.svg';
 
 function Circled({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <span className="relative inline-block whitespace-nowrap">
+    // `isolate` keeps the stroke behind the word without dropping it behind the
+    // page background, which a negative z-index would otherwise do.
+    <span className="relative isolate inline-block whitespace-nowrap">
       {children}
       <img
         src={CIRCLE_SCRIBBLE}
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute left-1/2 top-1/2 h-[calc(100%+13px)] w-[calc(100%+12px)] max-w-none translate-x-[-50%] translate-y-[calc(-50%-2px)] lg:h-[calc(100%+23px)] lg:translate-y-[calc(-50%-6px)]"
+        className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-[calc(100%+13px)] w-[calc(100%+12px)] max-w-none translate-x-[-50%] translate-y-[calc(-50%-2px)] lg:h-[calc(100%+23px)] lg:translate-y-[calc(-50%-6px)]"
       />
     </span>
   );
@@ -31,13 +33,14 @@ function Circled({ children }: Readonly<{ children: ReactNode }>) {
 
 function Underlined({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <span className="relative inline-block whitespace-nowrap">
+    // `isolate` for the same reason as in `Circled`.
+    <span className="relative isolate inline-block whitespace-nowrap">
       {children}
       <img
         src={LINE_SCRIBBLE}
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute bottom-0 left-1/2 h-3.25 w-[calc(100%+12px)] max-w-none translate-x-[-50%] lg:h-5.25"
+        className="pointer-events-none absolute bottom-0 left-1/2 -z-10 h-3.25 w-[calc(100%+12px)] max-w-none translate-x-[-50%] lg:h-5.25"
       />
     </span>
   );
