@@ -2,6 +2,14 @@ export type ProjectCategory = 'uiux' | 'marketing';
 
 export const projects: Project[] = [
   {
+    slug: 'nexton',
+    titleKey: 'projects.items.nexton.title',
+    descriptionKey: 'projects.items.nexton.description',
+    image: '/images/projects/nexton.jpg',
+    badgeKey: 'projects.items.nexton.badge',
+    categories: ['uiux'],
+  },
+  {
     slug: 'flow',
     titleKey: 'projects.items.flow.title',
     descriptionKey: 'projects.items.flow.description',
