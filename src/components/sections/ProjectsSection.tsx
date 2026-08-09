@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { projects } from '../../data/projects';
+import { featuredProjects } from '../../data/projects';
 import ProjectCard from '../ui/ProjectCard';
 import Button from '../ui/Button';
 import Heading from '../ui/Heading';
@@ -25,7 +25,7 @@ export default function ProjectsSection() {
         </div>
 
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-6">
-          {projects.slice(0, 4).map((project) => (
+          {featuredProjects.map((project) => (
             <ProjectCard
               key={project.slug}
               title={t(project.titleKey)}
