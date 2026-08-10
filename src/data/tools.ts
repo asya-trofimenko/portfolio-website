@@ -6,6 +6,8 @@ export const tools: ToolItem[] = [
   { name: 'Jitter', icon: 'jitter' },
   { name: 'Notion', icon: 'notion' },
   { name: 'ClickUp', icon: 'clickup' },
+  { name: 'ChatGPT', icon: 'chatgpt' },
+  { name: 'Claude', icon: 'claude' },
 ];
 
 interface ToolItem {
