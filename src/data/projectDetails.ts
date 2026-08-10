@@ -92,7 +92,7 @@ export const projectDetails: ProjectDetail[] = [
       {
         type: 'overview',
         textKey: 'projectDetail.nexton.overview.text',
-        image: '/images/projects/nexton/overview.jpg',
+        image: '/images/projects/nexton.jpg',
       },
       {
         type: 'challenge',
@@ -148,7 +148,7 @@ export const projectDetails: ProjectDetail[] = [
       {
         type: 'overview',
         textKey: 'projectDetail.tiptap.overview.text',
-        image: '/images/projects/tiptap/overview.jpg',
+        image: '/images/projects/tiptap.jpg',
       },
       {
         type: 'challenge',
@@ -220,7 +220,7 @@ export const projectDetails: ProjectDetail[] = [
       {
         type: 'overview',
         textKey: 'projectDetail.socialtrait.overview.text',
-        image: '/images/projects/socialtrait/overview.jpg',
+        image: '/images/projects/socialtrait.jpg',
       },
       {
         type: 'challenge',
@@ -360,7 +360,7 @@ export const projectDetails: ProjectDetail[] = [
       {
         type: 'overview',
         textKey: 'projectDetail.vulpesTech.overview.text',
-        image: '/images/projects/vulpes-tech/overview.jpg',
+        image: '/images/projects/vulpes-tech.jpg',
       },
       {
         type: 'challenge',
@@ -521,7 +521,7 @@ export const projectDetails: ProjectDetail[] = [
       {
         type: 'overview',
         textKey: 'projectDetail.illuscriber.overview.text',
-        image: '/images/projects/illuscriber/overview.jpg',
+        image: '/images/projects/illuscriber.jpg',
       },
       {
         type: 'challenge',
@@ -573,7 +573,7 @@ export const projectDetails: ProjectDetail[] = [
       {
         type: 'overview',
         textKey: 'projectDetail.flow.overview.text',
-        image: '/images/projects/flow/overview.jpg',
+        image: '/images/projects/flow.jpg',
       },
       {
         type: 'challenge',
