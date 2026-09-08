@@ -1,5 +1,13 @@
 export const testimonials: Testimonial[] = [
   {
+    nameKey: 'testimonials.items.8.name',
+    textKey: 'testimonials.items.8.text',
+    role: 'Lead Product Designer',
+    avatar: '/images/avatars/alina-zimina.jpg',
+    linkedinUrl:
+      'https://www.linkedin.com/in/anastasia-trofimenko/details/recommendations/',
+  },
+  {
     nameKey: 'testimonials.items.0.name',
     textKey: 'testimonials.items.0.text',
     role: 'Creative Direction',
