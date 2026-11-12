@@ -35,6 +35,8 @@ export const projectDetails: ProjectDetail[] = [
     serviceKey: 'projectDetail.quackly.service',
     heroVideo: '/videos/quackly.mp4',
     heroPoster: '/videos/posters/quackly.jpg',
+    fullCaseUrl:
+      'https://www.behance.net/gallery/258314013/Quackly-AI-English-Speaking-Coach-for-IT-Specialists',
     blocks: [
       {
         type: 'overview',
@@ -78,6 +80,8 @@ export const projectDetails: ProjectDetail[] = [
       {
         type: 'result',
         textKey: 'projectDetail.quackly.result.text',
+        fullCaseUrl:
+          'https://www.behance.net/gallery/258314013/Quackly-AI-English-Speaking-Coach-for-IT-Specialists',
       },
     ],
   },
