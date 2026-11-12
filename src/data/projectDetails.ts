@@ -29,6 +29,59 @@ export interface ProjectDetail {
 
 export const projectDetails: ProjectDetail[] = [
   {
+    slug: 'quackly',
+    taglineKey: 'projects.items.quackly.description',
+    industryKey: 'projects.items.quackly.badge',
+    serviceKey: 'projectDetail.quackly.service',
+    heroVideo: '/videos/quackly.mp4',
+    heroPoster: '/videos/posters/quackly.jpg',
+    blocks: [
+      {
+        type: 'overview',
+        textKey: 'projectDetail.quackly.overview.text',
+        image: '/images/projects/quackly/overview.jpg',
+      },
+      {
+        type: 'challenge',
+        itemKeys: [
+          'projectDetail.quackly.challenge.items.0',
+          'projectDetail.quackly.challenge.items.1',
+          'projectDetail.quackly.challenge.items.2',
+          'projectDetail.quackly.challenge.items.3',
+          'projectDetail.quackly.challenge.items.4',
+        ],
+      },
+      {
+        type: 'solution',
+        titleKey: 'projectDetail.quackly.solution.uiuxDesign.title',
+        textKey: 'projectDetail.quackly.solution.uiuxDesign.text',
+      },
+      {
+        type: 'photo-wrapper',
+        rows: [
+          {
+            type: 'duo',
+            images: [
+              '/images/projects/quackly/uiux-1.jpg',
+              '/images/projects/quackly/uiux-2.jpg',
+            ],
+          },
+          {
+            type: 'duo',
+            images: [
+              '/images/projects/quackly/uiux-3.jpg',
+              '/images/projects/quackly/uiux-4.jpg',
+            ],
+          },
+        ],
+      },
+      {
+        type: 'result',
+        textKey: 'projectDetail.quackly.result.text',
+      },
+    ],
+  },
+  {
     slug: 'lumi',
     taglineKey: 'projects.items.lumi.description',
     industryKey: 'projects.items.lumi.badge',
@@ -347,71 +400,6 @@ export const projectDetails: ProjectDetail[] = [
     ],
   },
   {
-    slug: 'vulpes-tech',
-    taglineKey: 'projects.items.vulpesTech.description',
-    industryKey: 'projects.items.vulpesTech.badge',
-    serviceKey: 'projectDetail.vulpesTech.service',
-    heroVideo: '/videos/vulpes-tech.mp4',
-    heroPoster: '/videos/posters/vulpes-tech.jpg',
-    fullCaseUrl:
-      'https://www.behance.net/gallery/216427137/IT-Solutions-Website-Landing-Page',
-    liveWebsiteUrl: 'https://vulpes-tech.net/',
-    blocks: [
-      {
-        type: 'overview',
-        textKey: 'projectDetail.vulpesTech.overview.text',
-        image: '/images/projects/vulpes-tech.jpg',
-      },
-      {
-        type: 'challenge',
-        itemKeys: [
-          'projectDetail.vulpesTech.challenge.items.0',
-          'projectDetail.vulpesTech.challenge.items.1',
-          'projectDetail.vulpesTech.challenge.items.2',
-          'projectDetail.vulpesTech.challenge.items.3',
-        ],
-      },
-      {
-        type: 'solution',
-        titleKey: 'projectDetail.vulpesTech.solution.visualIdentity.title',
-        textKey: 'projectDetail.vulpesTech.solution.visualIdentity.text',
-      },
-      {
-        type: 'photo-wrapper',
-        rows: [
-          {
-            type: 'duo',
-            images: [
-              '/images/projects/vulpes-tech/visual-identity-1.jpg',
-              '/images/projects/vulpes-tech/visual-identity-2.jpg',
-            ],
-          },
-        ],
-      },
-      {
-        type: 'text-block',
-        titleKey: 'projectDetail.vulpesTech.solution.uiuxDesign.title',
-        textKey: 'projectDetail.vulpesTech.solution.uiuxDesign.text',
-      },
-      {
-        type: 'photo-wrapper',
-        rows: [
-          {
-            type: 'single',
-            image: '/images/projects/vulpes-tech/uiux-wide.jpg',
-          },
-        ],
-      },
-      {
-        type: 'result',
-        textKey: 'projectDetail.vulpesTech.result.text',
-        fullCaseUrl:
-          'https://www.behance.net/gallery/216427137/IT-Solutions-Website-Landing-Page',
-        liveWebsiteUrl: 'https://vulpes-tech.net/',
-      },
-    ],
-  },
-  {
     slug: 'profit-whales',
     taglineKey: 'projects.items.profitWhales.description',
     industryKey: 'projects.items.profitWhales.badge',
@@ -516,7 +504,6 @@ export const projectDetails: ProjectDetail[] = [
     serviceKey: 'projectDetail.illuscriber.service',
     heroVideo: '/videos/illuscriber.mp4',
     heroPoster: '/videos/posters/illuscriber.jpg',
-    liveWebsiteUrl: 'https://illuscriber.com/',
     blocks: [
       {
         type: 'overview',
@@ -556,7 +543,6 @@ export const projectDetails: ProjectDetail[] = [
       {
         type: 'result',
         textKey: 'projectDetail.illuscriber.result.text',
-        liveWebsiteUrl: 'https://illuscriber.com/',
       },
     ],
   },
