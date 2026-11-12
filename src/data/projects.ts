@@ -2,6 +2,14 @@ export type ProjectCategory = 'uiux' | 'marketing';
 
 export const projects: Project[] = [
   {
+    slug: 'quackly',
+    titleKey: 'projects.items.quackly.title',
+    descriptionKey: 'projects.items.quackly.description',
+    image: '/images/projects/quackly/overview.jpg',
+    badgeKey: 'projects.items.quackly.badge',
+    categories: ['uiux'],
+  },
+  {
     slug: 'lumi',
     titleKey: 'projects.items.lumi.title',
     descriptionKey: 'projects.items.lumi.description',
@@ -47,14 +55,6 @@ export const projects: Project[] = [
     descriptionKey: 'projects.items.whalesMarketing.description',
     image: '/images/projects/whales-marketing.jpg',
     badgeKey: 'projects.items.whalesMarketing.badge',
-    categories: ['uiux'],
-  },
-  {
-    slug: 'vulpes-tech',
-    titleKey: 'projects.items.vulpesTech.title',
-    descriptionKey: 'projects.items.vulpesTech.description',
-    image: '/images/projects/vulpes-tech.jpg',
-    badgeKey: 'projects.items.vulpesTech.badge',
     categories: ['uiux'],
   },
   {

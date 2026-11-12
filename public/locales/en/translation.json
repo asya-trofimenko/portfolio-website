@@ -15,7 +15,7 @@
   "hero": {
     "greeting": {
       "line1": "Hi, I'm <u2>Anastasiia Trofimenko</u2>, ",
-      "line2": "a UX/UI & Marketing Designer crafting thoughtful <u>web</u> and <u>mobile</u> experiences."
+      "line2": "a UX/UI & Product Designer crafting thoughtful <u>web</u> and <u>mobile</u> experiences."
     },
     "availability": {
       "label": "Availability",
@@ -115,11 +115,6 @@
         "description": "Digital Marketing Agency",
         "badge": "Marketing & Advertising"
       },
-      "vulpesTech": {
-        "title": "Vulpes-Tech",
-        "description": "Custom Software & Web Development",
-        "badge": "IT"
-      },
       "profitWhales": {
         "title": "Profit Whales",
         "description": "Growth & Optimization on Amazon",
@@ -149,6 +144,11 @@
         "title": "Lumi",
         "description": "AI-Powered E-commerce Platform",
         "badge": "Beauty & Skincare"
+      },
+      "quackly": {
+        "title": "Quackly",
+        "description": "AI Speaking Trainer for IT Specialists",
+        "badge": "EdTech, AI"
       }
     },
     "heroDescription": "I design digital experiences that feel clear, engaging, and easy to use. I work on UX/UI for web and mobile products, as well as marketing visuals that help brands stand out."
@@ -224,25 +224,25 @@
       "title": "Careers",
       "items": [
         {
-          "role": "UX/UI & Marketing Designer",
+          "role": "UX/UI Designer",
           "period": "Present",
           "company": "Project Work — BeomyTech, Concepto, Whales Ventures, Coinask",
           "description": "I work on a project basis with diverse teams and clients, supporting them with design deliverables. Projects include websites, SaaS platforms and marketing materials."
         },
         {
-          "role": "UX/UI & Marketing Designer",
-          "period": "2024 — Present",
+          "role": "UX/UI Designer",
+          "period": "2024 — 2026",
           "company": "Socialtrait",
           "description": "Redesigned the landing page and create marketing materials that strengthen brand communication and identity."
         },
         {
-          "role": "UX/UI & Marketing Designer",
+          "role": "UX/UI Designer",
           "period": "2024 — 2025",
           "company": "Whales Marketing",
           "description": "Built a website from scratch within a cross-functional team and developed SMM creatives."
         },
         {
-          "role": "UX/UI & Marketing Designer",
+          "role": "UX/UI Designer",
           "period": "2024 — 2025",
           "company": "Profit Whales",
           "description": "Designed and improved website pages and prepared presentations and supporting materials."
@@ -385,33 +385,6 @@
       },
       "result": {
         "text": "The fully redesigned website clearly presents Whales Marketing's services and expertise, with a clean, intuitive UI that works seamlessly across devices. Engaging marketing and social media creatives strengthened the brand's visual identity, increased online visibility, and improved audience interaction. The cohesive design and campaign assets make content creation and campaign execution more efficient, supporting the agency's performance-driven approach and enhancing client experience."
-      }
-    },
-    "vulpesTech": {
-      "service": "UX/UI Design",
-      "overview": {
-        "text": "Vulpes-Tech is a forward-thinking IT company founded by Ukrainian professionals, helping businesses strengthen their digital presence through innovative products and smart development solutions. The company focuses on delivering modern, high-quality digital experiences that support strong business positioning and brand recognition."
-      },
-      "challenge": {
-        "items": [
-          "Create a modern landing page that stands out in the competitive IT market.",
-          "Communicate the company's expertise and innovative approach clearly.",
-          "Present key information in a structured and easy-to-scan format.",
-          "Ensure the layout remains clear and user-friendly across devices."
-        ]
-      },
-      "solution": {
-        "visualIdentity": {
-          "title": "Visual Identity",
-          "text": "A dark-themed visual style was created to match the client's vision and emphasize a modern, high-tech feel. Clean typography and accent highlights enhance readability while reinforcing a sleek and professional brand image."
-        },
-        "uiuxDesign": {
-          "title": "UX/UI Design",
-          "text": "A responsive landing page was designed to present key information in a clear and structured flow. The interface combines intuitive navigation with well-organized sections, including About, Services, Skills, Portfolio, Team, Blog, Testimonials, and Contact."
-        }
-      },
-      "result": {
-        "text": "The final landing page delivers a strong and modern digital presence for Vulpes-Tech, combining a sleek dark interface with clear structure and intuitive navigation. The design highlights the company's expertise and creates a professional first impression, helping the brand communicate credibility and innovation to potential clients."
       }
     },
     "profitWhales": {
@@ -557,6 +530,30 @@
       },
       "result": {
         "text": "The final design delivers a personalized beauty shopping experience that combines AI technology with a user-friendly e-commerce journey. Lumi helps users make more confident skincare decisions, discover relevant products faster, and create personalized routines through a clear and engaging digital experience."
+      }
+    },
+    "quackly": {
+      "service": "UX/UI Design",
+      "overview": {
+        "text": "Quackly is an AI English speaking trainer for IT professionals working in international teams. It helps people with B1–B2 English prepare for real work conversations: client meetings, job interviews, product presentations, and daily team calls. Instead of standard lessons, users can describe an upcoming conversation and practise with an AI partner that never interrupts, gives them time to think, and helps them feel more confident when communicating."
+      },
+      "challenge": {
+        "items": [
+          "Research the difficulties IT professionals face when speaking English at work.",
+          "Create a personalized practice experience focused on real work situations rather than general language learning.",
+          "Help users feel more confident when answering unexpected questions and taking part in conversations without prior preparation.",
+          "Design a comfortable practice environment where users can make mistakes without fear of judgment and learn at their own pace.",
+          "Define AI interactions so that the AI supports the conversation, does not interrupt, and helps users find the right words."
+        ]
+      },
+      "solution": {
+        "uiuxDesign": {
+          "title": "UX/UI Design",
+          "text": "I developed the concept for an AI speaking trainer that helps users prepare for real work conversations in English. The design was based on user research, including online surveys, in-depth interviews with IT professionals, competitor analysis, and App Store review analysis. The design focuses on simplicity, clear navigation, and a calm atmosphere. The interface is intended to make practice easy to start, comfortable even when making mistakes, and simple enough for users to want to return to it regularly."
+        }
+      },
+      "result": {
+        "text": "The result was the Quackly concept – a personalized AI trainer that helps IT professionals prepare for work conversations in English and gradually build confidence in communication. The product combines practice based on real work situations, helpful language prompts, and comfortable interaction with AI. Instead of focusing on scores and grammar mistakes, Quackly helps users focus on what matters most – expressing their thoughts more freely and feeling more confident during work calls."
       }
     }
   }

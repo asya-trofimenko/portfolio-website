@@ -23,7 +23,6 @@ export const testimonials: Testimonial[] = [
     avatar: '/images/avatars/bohdan-mazur.jpg',
     linkedinUrl:
       'https://www.linkedin.com/in/anastasia-trofimenko/details/recommendations/',
-    projectSlug: 'vulpes-tech',
   },
   {
     nameKey: 'testimonials.items.2.name',
