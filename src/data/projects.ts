@@ -84,7 +84,7 @@ export const projects: Project[] = [
 ];
 
 /** Projects featured on the home page, in the order they appear there. */
-const featuredSlugs = ['tiptap', 'socialtrait', 'whales-marketing', 'lumi'];
+const featuredSlugs = ['tiptap', 'quackly', 'whales-marketing', 'lumi'];
 
 export const featuredProjects: Project[] = featuredSlugs.flatMap(
   (slug) => projects.find((project) => project.slug === slug) ?? [],
